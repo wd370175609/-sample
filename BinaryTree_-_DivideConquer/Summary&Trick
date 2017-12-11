@@ -12,6 +12,10 @@ Summary&Trick
   • They are both Recursion Algorithm
   • Result in parameter vs Result in return value 
   • Top down vs Bottom up
+  
+ 
+For Divide Conquer, often create a resultType class, to easily store the current state variables(if we need more than 1 variable).
+Refer the question Balanced Binary Tree.
 
 
 
