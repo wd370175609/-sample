@@ -20,5 +20,7 @@ Refer the question Balanced Binary Tree.
 For the questions that need maximum/minimum value, we need to use traverse or traverse combine divide_conquer, using a global
 variable to store and compare the value. 
 
+BST
+property: inorder traversal is non-decreasing. Can use it to check BST.
 
 
