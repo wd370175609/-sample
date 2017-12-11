@@ -23,4 +23,6 @@ variable to store and compare the value.
 BST
 property: inorder traversal is non-decreasing. Can use it to check BST.
 
+For Preorder and Inorder traverse, recite the stack solution.
+
 
