@@ -1,0 +1,10 @@
+1.reverse link:
+remember:
+ListNode cur = head;
+        ListNode pre=null;
+        while(cur!=null){
+            ListNode temp=cur.next;
+            cur.next=pre;
+            pre=cur;
+            cur=temp;
+        }
