@@ -1,5 +1,20 @@
-Two sum quesions and its follow up:
+1，Two sum quesions and its follow up:
+
 basic two sum: leetcode 1;
 For sorted array: use two pointer can save extra space;
-For unsorted array: use hashmap will only cost O(n)
-<img width="373" alt="wx20171217-095822 2x" src="https://user-images.githubusercontent.com/31394433/34082343-1c841cce-e311-11e7-852f-4f06f0afdf7d.png">
+For unsorted array: use hashmap will only cost O(n), take O(n) extra space. Two pointer will cost O(n)
+3SUM: leetcode 15 (make use of 2SUM, difficult part is remove duplicate)
+follow up: 3SUM closest: leetcode 16
+Valid Triangle Number: leetcode 611
+Two Sum Closest: 看视频思路。
+
+
+
+
+
+2，Partition Array:
+
+
+
+
+
