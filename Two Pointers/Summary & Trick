@@ -1,0 +1,4 @@
+Two sum quesions and its follow up:
+basic two sum: leetcode 1;
+For sorted array: use two pointer can save extra space;
+For unsorted array: use hashmap will only cost O(n)
