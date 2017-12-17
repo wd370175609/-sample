@@ -8,3 +8,21 @@ ListNode cur = head;
             pre=cur;
             cur=temp;
         }
+        
+example of linkedlist: 
+Reverse nodes in k-groups: leetcode 25
+Copy List with Random Pointer:  leetcode 138
+Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick
+
+        
+        
+        
+        
+        
+array:
+
+Arrays.sort(): is quick sort
+time:O(nlogn)  space:O(1)
+merge sorted array:
+
+median of two sorted array: leetcode 4
