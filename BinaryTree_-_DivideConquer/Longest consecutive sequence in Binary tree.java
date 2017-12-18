@@ -25,7 +25,7 @@ class GfG
             if(root.left!=null && root.left.key==root.key+1){
                 subtreelongest=Math.max(subtreelongest,leftlc+1);
             }
-            else if(root.right!=null && root.right.key==root.key+1)
+            if(root.right!=null && root.right.key==root.key+1)
                 subtreelongest=Math.max(subtreelongest,rightlc+1);
                 
             if(maxlc<subtreelongest)
