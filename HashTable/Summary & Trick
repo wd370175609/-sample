@@ -20,6 +20,8 @@ int hashfunc(String key){
   use linked list in each bucket. 
   
 rehashing:
+饱和度 = 实际存储元素个数 / 总共开辟的空间大小 size / capacity
+一般来说，超过 1/10(经验值) 的时候，说明需要进行 rehash
 哈希表容量的大小在一开始是不确定的。如果哈希表存储的元素太多（如超过容量的十分之一），我们应该将哈希表容量扩大一倍，并将所有的哈希值重新安排。
 anwser:
 http://www.jiuzhang.com/solutions/rehashing/
