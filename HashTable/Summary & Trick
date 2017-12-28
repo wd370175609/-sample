@@ -1,0 +1,25 @@
+Hash function:
+code: 
+int hashfunc(String key){
+  int sum = 0;
+  for(int i=0;i<key.legnth();i++){
+    sum=sum*31 + (int)(key.charAt(i)); // 转化成31进制
+    sum=sum % HASH_TABLE_SIZE;   ／／变转化边取模，相当于转化结束后再取模（能有效防止内存溢出的情况）(a+b)%c =(a%c+b%c)%c; (a*b)%c=(a%c*b%c)%c
+  }
+  return sum;
+}
+
+
+
+
+
+2 ways to remove collision:
+1.Closed Hashing:
+  if the position is not empty, move to next position.
+2.Open Hashing (better): 
+  use linked list in each bucket. 
+  
+rehashing:
+哈希表容量的大小在一开始是不确定的。如果哈希表存储的元素太多（如超过容量的十分之一），我们应该将哈希表容量扩大一倍，并将所有的哈希值重新安排。
+anwser:
+http://www.jiuzhang.com/solutions/rehashing/
