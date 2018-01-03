@@ -35,8 +35,8 @@ https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_cont
 1. 状态转移特别麻烦，不是顺序性。
 2. 初始化状态不是很容易找到。
  
-博弈dp：用搜索的角度去找状态之间的关系。
-this.coin in the line
+博弈dp：用搜索的角度去找状态之间的关系 (可以用memorization 写，也可以用普通写法）。
+this.coin in the line |, ||
 
 
 
