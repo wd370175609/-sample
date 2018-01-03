@@ -14,9 +14,28 @@ Minimum Path Sum: lc 64.
 unique path: lc 62 63
 Climbing Stairs: lc 70
 
-接龙型动态规划: 当前状态与之前的状态有联系，找到这个联系后，考虑是否需要寻找到一个最大或最小值。
+接龙型动态规划: 当前状态与之前的状态有联系，找到这个联系后，考虑是否需要寻找到一个最大或最小值。（也是一种坐标型）
 Longest Increasing Subsequence: lc300, use dp cost O(n^2), use binary seach cost(nlogn) 
 Largest Divisible Subset: lc368  cost O(n^2). sometimes if we want to output the result, we can use an array to store last state
 of dp.(保存上一个状态).  compare lc300 and lc368, both need to find the minimum or maximum value from the state before. 
 
 Russian Doll Envelopes: lc354
+
+序列型动态规划： 这类题目特点
+• f[i] = max(f[i-1], f[i-2] + A[i]); 由 f[i-1],f[i-2] 来决定状态， 不再是找前面状态的最大或最小值。
+House Robber: lc198 lc213
+Maximal Square: lc 221. 
+
+记忆化搜索（memorization):
+Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）
+https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html
+
+什么时候用记忆化搜索? 
+1. 状态转移特别麻烦，不是顺序性。
+2. 初始化状态不是很容易找到。
+ 
+
+
+
+
+
