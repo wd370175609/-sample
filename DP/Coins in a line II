@@ -1,0 +1,71 @@
+ 
+ //trick is dp[i] means remaining i coins. similarly, we should use search to think the recursion function. （理解先手后手都有选择权，
+ 所以先手要取最大的，后手会取让先手总值最小的。）
+ //这道题用memorization 写法类似于dfs， 但是要有用一个flag数组来去重。
+ public boolean firstWillWin(int[] values) {
+        // write your code here
+        
+        int sum=0;
+        int n=values.length;
+        for(int i=0;i<n;i++)
+            sum+=values[i];
+        if(n<=2 && n>0)
+            return true;
+        if(n==3)
+            return values[0]+values[1]>values[2];
+        if(n==4)
+            return Math.max((values[0]+values[1]),(values[0]+values[3]))>sum/2;
+        
+        int[] dp=new int[n];
+        dp[0]=values[n-1];
+        dp[1]=values[n-1]+values[n-2];
+        dp[2]=values[n-2]+values[n-3];
+        dp[3]=Math.max((values[n-4]+values[n-1]),(values[n-4]+values[n-3]));
+        for(int i=4;i<values.length;i++){
+            dp[i]=Math.max(Math.min(dp[i-2],dp[i-3])+values[n-1-i],Math.min(dp[i-3],dp[i-4])+values[n-1-i]+values[n-i]);
+        }
+        if(dp[n-1]>sum/2)
+            return true;
+        else 
+            return false;
+    }
+    
+    
+    //solution 2 (memorization)
+    public class Solution {
+    /**
+     * @param values: an array of integers
+     * @return: a boolean which equals to true if the first player will win
+     */
+    public boolean firstWillWin(int[] values) {
+        // write your code here
+        int []dp = new int[values.length + 1];
+        boolean []flag =new boolean[values.length + 1];
+        int sum = 0;
+        for(int now : values) 
+            sum += now;
+        
+        return sum < 2*MemorySearch(values.length, dp, flag, values);
+    }
+    int MemorySearch(int n, int []dp, boolean []flag, int []values) { 
+        if(flag[n] == true)
+            return dp[n];
+        flag[n] = true;
+        if(n == 0)  {
+            dp[n] = 0;  
+        } else if(n == 1) {
+            dp[n] = values[values.length-1];
+        } else if(n == 2) {
+            dp[n] = values[values.length-1] + values[values.length-2]; 
+        } else if(n == 3){
+            dp[n] = values[values.length-2] + values[values.length-3]; 
+        } else {
+            dp[n] = Math.max(
+                Math.min(MemorySearch(n-2, dp, flag,values) , MemorySearch(n-3, dp, flag, values)) + values[values.length-n],
+                Math.min(MemorySearch(n-3, dp, flag, values), MemorySearch(n-4, dp, flag, values)) + values[values.length-n] + values[values.length - n + 1]
+                );
+        }
+    
+        return dp[n];
+    }    
+}
