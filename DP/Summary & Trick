@@ -27,7 +27,8 @@ House Robber: lc198 lc213
 Maximal Square: lc 221. 
 
 记忆化搜索（memorization):
-Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）
+Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
+化搜索才能最优化。
 https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html
 
 什么时候用记忆化搜索? 
