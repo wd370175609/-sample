@@ -38,7 +38,11 @@ https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_cont
 博弈dp：用搜索的角度去找状态之间的关系 (可以用memorization 写，也可以用普通写法）。
 this.coin in the line |, ||
 
+区间型dp: 
+Burst Balloons: lc 312 (注意for循环的顺序，是个套路）
 
-
+匹配型dp:
+this. longest common subsequence
+Edit Distance: lc 72
 
 
