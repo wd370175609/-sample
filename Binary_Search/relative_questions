@@ -5,3 +5,5 @@ Find Minimum in Rotated Sorted Array: leetcode 153
 Find Peak Element: leetcode 162
 
 Search in Roated Sorted Array: leetcode 33
+
+Find K Closest Elements: lc 658 (specific for the loop condition, need to be remembered)
