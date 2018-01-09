@@ -37,5 +37,7 @@ ex: Graph Valid Tree: this
 Topological sorting: refer to this.topolocal sorting.java
 idea is to find whether there is circle in the directed graph. The condition to be in queue is the node whose indegree is 0;
 
+Serialize and Deserialize BST: lc 449 (remember this question! use combination of DFS and BFS);
+
 
 
