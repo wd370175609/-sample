@@ -2,5 +2,11 @@ Balanced Binary Tree: leetcode 110
 Maximum Depth of Binary Tree
 Path Sum: leetcode 112,113,437
 
+Divide & Conquer:
+Lowest Common Ancestor of a Binary Tree: lc 235 236. remember if(root==null || root==p || root==q) is the return condition.
+                                                                        return root;
+
+
 BST:
 Binary Search Tree Iterator: leetcode 173
+Validate Binary Search Tree: lc 98
