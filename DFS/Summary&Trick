@@ -3,7 +3,11 @@ for solving the solution:
 
 partition:
 Matchsticks to Square: lc 473
-
+Palindrome Partitioning: lc 131
 
 search in graph: 
 word ladder I II: lc 126 & 127
+word search: lc 79
+
+combination: 通常画个tree来帮助思考
+Combinations: lc 77
