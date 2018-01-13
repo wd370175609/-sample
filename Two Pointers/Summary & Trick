@@ -5,8 +5,8 @@ For sorted array: use two pointer can save extra space;
 For unsorted array: use hashmap will only cost O(n), take O(n) extra space. Two pointer will cost O(n)
 3SUM: leetcode 15 (make use of 2SUM, difficult part is remove duplicate)
 follow up: 3SUM closest: leetcode 16
-Valid Triangle Number: leetcode 611
-Two Sum Closest: 看视频思路。
+Valid Triangle Number: leetcode 611  trick is (for the sorted array, we just need to consider whether a+b>c! that's enough)
+Two Sum Closest: 比two sum多出来的地方就是在过程中要记录一下difference。 看this. two sum questions
 
 
 
