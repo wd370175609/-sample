@@ -1,5 +1,5 @@
 1.reverse link:
-remember:
+remember: （经常用到）
 ListNode cur = head;
         ListNode pre=null;
         while(cur!=null){
@@ -13,8 +13,9 @@ example of linkedlist:
 Reverse nodes in k-groups: leetcode 25
 Copy List with Random Pointer:  leetcode 138
 Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick
+Reorder List: lc143
 
-        
+trick: 画图来考虑连接的问题会让思路变得清晰。
         
         
         
