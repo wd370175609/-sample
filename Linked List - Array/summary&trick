@@ -16,8 +16,14 @@ Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick
 Reorder List: lc143
 
 trick: 画图来考虑连接的问题会让思路变得清晰。
-        
-        
+
+       a way to find the middle ListNode in the List
+       ListNode slow = head;
+       ListNode fast = head;
+       while(fast!=tail&&fast.next!=tail){
+         fast = fast.next.next;
+         slow = slow.next;
+       }
         
         
 array:
