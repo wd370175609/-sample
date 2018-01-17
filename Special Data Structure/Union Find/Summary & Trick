@@ -1,0 +1,41 @@
+sample code:
+
+public class UnionFind(){
+  
+
+  private int[] father = null;
+  
+  public ConnectingGraph(int n){
+    father = new int[n+1];
+    for(int i=1;i<n;i++)
+      father[i]=i;
+  }
+  
+  public int find(int x){
+    if(father[x]==x)
+      return x;
+    return father[x]=find(father[x]);
+  }
+  
+  public void union(int a, int b){
+    int root_a=find(a);
+    int root_b=find(b);
+    if(root_a!=root_b)
+      father[root_a]=root_b;
+  }
+  
+}
+
+
+并查集原生操作:
+  •查询两个元素是否在同一个集合内 
+  •合并两个元素所在的集合
+ 
+并查集的派生操作: 
+  •查询某个元素所在集合的元素个数 
+  •查询当前集合的个数
+  
+  
+Relative questions:
+
+Numbers of Islands II: https://zhengyang2015.gitbooks.io/lintcode/number_of_islands_ii_434.html
