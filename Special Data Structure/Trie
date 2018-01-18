@@ -1,0 +1,19 @@
+implementation:
+Implement Trie (Prefix Tree): lc 208
+
+hashmap vs Trie:
+time complexity is the same.
+Trie save the space: example: store (a, aa, aaa, aaaa), hashmap need 10 space. trie need 4. (实在不理解看强化班第一次视频)
+hashmap 唯一优势是写法简单。
+前缀操作要用trie树！
+
+
+
+summary:
+和前缀有关的题就考虑trie！
+
+
+
+relative questions:
+Add and Search Word - Data structure design: lc211
+
