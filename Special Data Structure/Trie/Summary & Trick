@@ -11,7 +11,7 @@ hashmap 唯一优势是写法简单。
 
 
 summary:
-和前缀有关的题就考虑trie！
+和前缀有关的题就考虑trie！(如 word search II 搜索时利用前缀来降低时间复杂度）
 
 
 
