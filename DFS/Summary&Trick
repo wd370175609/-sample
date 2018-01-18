@@ -14,6 +14,23 @@ trick: 在matrix中搜索四个方向时，设两个数组有时候可以简化�
         int nextY = point.y + dy[i];
         ...
      }
+      用visited[][]数组来去重时候，如果是单纯的DFS访问所有节点（每个节点只能访问一次），那么不需要将visited还原， 如果DFS的每个分支可能访问
+      相同的节点（如 word searchII），那么在每个节点search完以后要将visited还原。如：
+      visited[x][y]=true;                // be careful when to set the visited
+        if(obj.search(s)){
+            if(!res.contains(s))
+                res.add(s);
+        }
+        if(obj.startsWith(s)){
+            for(int i=0;i<4;i++){
+                traverse(res,obj,board,visited,s,x+c1[i],y+c2[i]);
+            }
+        }
+        visited[x][y]=false;      // be careful when to recover the visited
+        
+        
+        
+      
 word ladder I II: lc 126 & 127
 word search: lc 79
 
