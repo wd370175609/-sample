@@ -30,6 +30,7 @@ Maximal Square: lc 221.
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
 化搜索才能最优化。
 https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html
+Longest Increasing Path in a Matrix:lc 329! (自己写的模板，复习时候看!)
 Combination Sum IV:lc377 这道题题目类似于背包问题，但是由于顺序不同，结果也不同，所以难以写出递推公式，用memorization却能轻易解决。
 
 什么时候用记忆化搜索? 
