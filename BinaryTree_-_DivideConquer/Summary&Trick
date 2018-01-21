@@ -27,4 +27,6 @@ property: inorder traversal is non-decreasing. Can use it to check BST.
 
 For Preorder and Inorder traverse, recite the stack solution.
 
+Delete Node in BST: LC450
+
 
