@@ -42,6 +42,8 @@ this.coin in the line |, ||
 
 区间型dp: 
 Burst Balloons: lc 312 (注意for循环的顺序，是个套路）
+Palindromic Substrings: lc647
+Longest Palindromic Substring: lc5 (这道题只有设成区间型(i,j)，才能写出递推公式）
 
 匹配型dp: input is almost two string. 
 this. longest common subsequence
