@@ -1,0 +1,11 @@
+1. Priority Queue
+
+the concept of comparator and the difference between comparator and comparable. (for comparator, we don't need to change class,
+Class whose objects to be sorted do not need to implement this Comparator interface. Some third class can implement this interface to sort.
+comparable: This interface has one method compareTo. Class whose objects to be sorted must implement this Comparable interface. 
+that means for different sort ways, we need to change the class differently.)
+
+https://www.linkedin.com/pulse/whats-difference-between-comparable-comparator-java-mourad-benkadour
+
+example:
+ugly number II: leetcode 264
