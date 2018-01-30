@@ -7,6 +7,9 @@ Lowest Common Ancestor of a Binary Tree: lc 235 236. remember if(root==null || r
                                                                         return root;
 Reverse Pair: lc 493 (using mergesort)
 Binary Tree Maximum Path Sum: lc124
+Construct Binary Tree from Inorder and Postorder Traversal: lc106 (trick is the last element in postorder array is the root)
+
+
 
 BST:
 Binary Search Tree Iterator: leetcode 173
