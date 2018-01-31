@@ -12,3 +12,8 @@ Search 2D matrix: lc 74 lc 240 (this two questions have different kinds of array
 
 First Bad Version: lc 278
 
+Is Subsequence: lc 392
+summary:
+API: 
+Collections.binarySearch()
+
