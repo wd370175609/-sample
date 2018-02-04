@@ -7,3 +7,9 @@ Total Hamming Distance: LC 477
 
 frequent used API in java:
 Integer.bitCount:  Returns the number of one-bits in the two's complement binary representation of the specified int value.
+
+
+Single Number I II III: 暂时还看不懂
+https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
+
+
