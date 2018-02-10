@@ -28,3 +28,13 @@ http://www.jiuzhang.com/solutions/rehashing/
 
 3 example:
 LRU Cache: 146
+
+
+
+API:
+java
+  for (int key : map.keySet()) {
+    if (map.containsKey(key + 1)) {
+      result = Math.max(result, map.get(key + 1) + map.get(key));
+    }
+  }
