@@ -25,6 +25,7 @@ Russian Doll Envelopes: lc354
 • f[i] = max(f[i-1], f[i-2] + A[i]); 由 f[i-1],f[i-2] 来决定状态， 不再是找前面状态的最大或最小值。
 House Robber: lc198 lc213
 Maximal Square: lc 221. 
+Delete and Earn: lc 740. similar to house robber.
 
 记忆化搜索（memorization):
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
