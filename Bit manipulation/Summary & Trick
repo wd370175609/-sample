@@ -1,3 +1,16 @@
+Trick: 
+negative number: Two's Complement
+Suppose we're working with 8 bit quantities (for simplicity's sake) and suppose we want to
+find how -28 would be expressed in two's complement notation. First we write out 28 in binary form.
+00011100
+Then we invert the digits. 0 becomes 1, 1 becomes 0.
+11100011
+Then we add 1.
+11100100
+
+>> is arithmetic shift right, >>> is logical shift right.    https://stackoverflow.com/questions/2811319/difference-between-and
+there is not <<<.
+
 
 Relative questions:
 Total Hamming Distance: LC 477
@@ -12,4 +25,13 @@ Integer.bitCount:  Returns the number of one-bits in the two's complement binary
 Single Number I II III: 暂时还看不懂
 https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
 
+reverseBit :lc 190
 
+
+
+
+
+
+
+关于字母的bit manipulation:
+Maximum Product of Word Lengths:318
