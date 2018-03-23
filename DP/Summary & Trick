@@ -58,6 +58,7 @@ a trick for writing code is that if input is string, the length of dp array shou
 
 背包类dp：
 Coin Change: lc322 lc518
+Ones and Zeroes: lc474
 
 大类型DP（自己总结）: 如果只和上一个状态有关系，怎么space complexity可以降低为O(1)
 Best Time to Buy and Sell Stock:
