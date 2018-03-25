@@ -9,3 +9,16 @@ https://www.linkedin.com/pulse/whats-difference-between-comparable-comparator-ja
 
 example:
 ugly number II: leetcode 264
+
+Task Scheduler: lc 621
+
+
+
+
+Trick for priorityQueue:
+
+1.combine with hashmap. (sort the map.entry according to value or key)
+PriorityQueue<Map.Entry<Character, Integer>> q = new PriorityQueue<>( //frequency sort
+  (a,b) -> a.getValue() != b.getValue() ? b.getValue() - a.getValue() : a.getKey() - b.getKey());
+  
+
