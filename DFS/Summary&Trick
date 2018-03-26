@@ -6,7 +6,8 @@ Matchsticks to Square: lc 473
 Palindrome Partitioning: lc 131
 
 search in graph: 
-trick: 在matrix中搜索四个方向时，设两个数组有时候可以简化代码
+trick: 
+1.在matrix中搜索四个方向时，设两个数组有时候可以简化代码
     int[] dx = {-1, 1, 0, 0};
     int[] dy = {0, 0, -1, 1};
      for(int i = 0; i < 4; i++){
@@ -27,7 +28,7 @@ trick: 在matrix中搜索四个方向时，设两个数组有时候可以简化�
             }
         }
         visited[x][y]=false;      // be careful when to recover the visited
-        
+ 2.画dfs的搜索树的时候如果有很多的节点是相等的，就可以考虑memorization
         
         
       
@@ -39,3 +40,6 @@ Combinations: lc 77
 
 question that need to improve the time complextiy using cached (DP): 
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
+Out of Boundary Paths:lc 576 (classical question using with memorization.)
+
+
