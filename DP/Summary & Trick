@@ -77,4 +77,8 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-f
 
 
 
+some tricks:
+1,for Continuous Subarray Sum problem, dp may cause memory limit problem. So instead here we can compute presum first.
+Ex: Continuous Subarray Sum: lc523
+
 
