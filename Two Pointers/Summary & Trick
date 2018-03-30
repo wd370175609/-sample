@@ -24,3 +24,24 @@ this.quick sort
 this.rainbow sort: combine of quick sort and merge sort!
 
 
+4.For most substring problem, we are given a string and need to find a substring of it which satisfy some restrictions. A general way is to use a hashmap assisted with two pointers. The template is given below.
+there is a template
+
+  for(int right=0;right<s.length();right++){
+
+            if(map[s[end++]]-- ?){  /* modify counter here */ }
+
+            while(/* counter condition */){ 
+                 
+                 /* update d here if finding minimum*/
+
+                //increase begin to make it invalid/valid again
+                
+                if(map[s[begin++]]++ ?){ /*modify counter here*/ }
+            }  
+
+            /* update d here if finding maximum*/
+        }
+ 
+ ex: Minimum Window Substring lc 76
+        
