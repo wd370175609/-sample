@@ -1,4 +1,4 @@
-1，Two sum quesions and its follow up:
+1，Two sum quesions and its follow up:   two sum is the two pointers in different directions.
 
 basic two sum: leetcode 1;
 For sorted array: use two pointer can save extra space;
@@ -43,5 +43,5 @@ there is a template
             /* update d here if finding maximum*/
         }
  
- ex: Minimum Window Substring lc 76
+ ex: Minimum Window Substring lc 76   //this question is the pointer in the same direction. It's like a window.
         
