@@ -1,3 +1,5 @@
+//cost O(n)
+
 import java.util.*;
  
 public class BucketSort{
