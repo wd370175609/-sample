@@ -10,8 +10,15 @@ public class UnionFind(){
   public int find(int x){
     if(father[x]==x)
       return x;
-    return father[x]=find(father[x]);
+    return father[x]=find(father[x]);   //路径压缩
   }
+  
+  public int find(int x){  //非路径压缩
+    if(father[x]==x)
+      return x;
+    return find(father[x]);
+    }
+    
   public void union(int a, int b){
     int root_a=find(a);
     int root_b=find(b);
@@ -20,6 +27,40 @@ public class UnionFind(){
   }
 }
 
+sample code2 (当node不是整数时，father 数组改为map）
+ class UnionFind{
+        Map<String,String> father;
+        UnionFind(Set<String> parent){   //the initialization will make all nodes father is itself
+            father=new HashMap<>();
+            for(String n:parent)
+                father.put(n,n);
+        }
+        
+        //compress the search path.  cost O(1) to find the root.
+        public String find(String node){
+            String parent = father.get(node);
+            while(!parent.equals(father.get(parent))){
+                parent = father.get(parent);
+            }
+            String temp = "";
+            String fa = node;
+            while(!fa.equals(father.get(fa))){
+                temp = father.get(fa);
+                father.put(fa, parent);
+                fa = temp;
+            }
+            return parent;
+        }
+        
+        public void union(String a, String b){
+            String parent1=find(a);
+            String parent2=find(b);
+            if(!parent1.equals(parent2))
+                father.put(parent1,parent2);
+        }
+    }
+    
+    
 
 并查集原生操作:
   •查询两个元素是否在同一个集合内 
@@ -34,3 +75,4 @@ Relative questions:
 
 Numbers of Islands II: https://zhengyang2015.gitbooks.io/lintcode/number_of_islands_ii_434.html
 Redundant Connection: lc684
+Accounts Merge: lc721
