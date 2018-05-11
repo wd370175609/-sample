@@ -1,12 +1,25 @@
-1，Two sum quesions and its follow up:   two sum is the two pointers in different directions.
 
-basic two sum: leetcode 1;
-For sorted array: use two pointer can save extra space;
-For unsorted array: use hashmap will only cost O(n), take O(n) extra space. Two pointer will cost O(n)
+同向双指针：
+Two Sum - Difference equals to target  
+https://www.lintcode.com/submission/14497657
+
+
+相向双指针：
+1，Two sum quesions and its follow up:   two sum is the two pointers in different directions.
+Basic two sum:
+two pointer method:   https://www.jiuzhang.com/solutions/two-sum/
+hashmap method: leetcode 1
+Note: -For sorted array: use two pointer can save extra space;
+      -For unsorted array: use hashmap will only cost O(n), take O(n) extra space. Two pointer will cost O(n)
+follow up: Two Sum Closest: 比two sum多出来的地方就是在过程中要记录一下difference。 看this. two sum questions
+
 3SUM: leetcode 15 (make use of 2SUM, difficult part is remove duplicate)
 follow up: 3SUM closest: leetcode 16
-Valid Triangle Number: leetcode 611  trick is (for the sorted array, we just need to consider whether a+b>c! that's enough)
-Two Sum Closest: 比two sum多出来的地方就是在过程中要记录一下difference。 看this. two sum questions
+
+4SUM: lc18 (make use of 2SUM and 3SUM, should remove duplicate in all functions.)
+
+2.Valid Triangle Number: leetcode 611  trick is (for the sorted array, we just need to consider whether a+b>c! that's enough)
+
 
 
 
