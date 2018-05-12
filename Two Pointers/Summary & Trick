@@ -21,16 +21,12 @@ follow up: 3SUM closest: leetcode 16
 2.Valid Triangle Number: leetcode 611  trick is (for the sorted array, we just need to consider whether a+b>c! that's enough)
 
 
-
-
-
-
-2，Partition Array:
+3，Partition Array:
 
 example: 
 this.partition array.java
 quick sort: this.quick sort
-
+quick select: this.quick select
 
 3, Sort
 this.quick sort
