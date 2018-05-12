@@ -26,7 +26,7 @@ follow up: 3SUM closest: leetcode 16
 example: 
 this.partition array.java
 quick sort: this.quick sort
-quick select: this.quick select
+quick select: this.quick_select        https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array/my-submissions
 
 3, Sort
 this.quick sort
