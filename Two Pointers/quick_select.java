@@ -33,7 +33,7 @@ public final class QuickSelect {
 	*	algorithm, requiring only constant memory overhead, since the tail 
 	*	recursion can be eliminated with a loop like this
 	*/
-	public static int selectIterative(int[] array, int n) {
+	public static int selectIterative(int[] array, int n) {         //this is quick sort
 		return iterative(array, 0, array.length - 1, n);
 	}
 	
@@ -65,7 +65,7 @@ public final class QuickSelect {
 	*	recursive call locates the desired element in the correct partition, and
 	*	we build upon this for quickselect.
 	*/
-	public static int selectRecursive(int[] array, int n) {
+	public static int selectRecursive(int[] array, int n) {     //this is quick select
 		return recursive(array, 0, array.length - 1, n);
 	}
 	
@@ -98,7 +98,9 @@ public final class QuickSelect {
 	*	equal to the element. Here is pseudocode that performs a partition about
 	*	the element list[pivotIndex]
 	*/
-	private static int partition(int[] array, int left, int right, int pivotIndex) {
+	
+	//partition code are the same for quick select and quick sort;
+	private static int partition(int[] array, int left, int right, int pivotIndex) { 
 		int pivotValue = array[pivotIndex];
 		swap(array, pivotIndex, right); // move pivot to end
 		int storeIndex = left;
