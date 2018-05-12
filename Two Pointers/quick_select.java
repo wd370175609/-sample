@@ -33,7 +33,7 @@ public final class QuickSelect {
 	*	algorithm, requiring only constant memory overhead, since the tail 
 	*	recursion can be eliminated with a loop like this
 	*/
-	public static int selectIterative(int[] array, int n) {         //this is quick sort
+	public static int selectIterative(int[] array, int n) {         //iterative 的版本
 		return iterative(array, 0, array.length - 1, n);
 	}
 	
@@ -113,6 +113,36 @@ public final class QuickSelect {
 		swap(array, right, storeIndex); // Move pivot to its final place
 		return storeIndex;
 	}
+	
+	//我的版本
+	private int partition(int[] nums, int left, int right, int pivotIndex) {
+		int pivotValue = nums[pivotIndex];
+		swap(nums, pivotIndex, right);  //first store the pivot value to last index;
+        	int tmp=right;
+		right--;
+		while(left<right){
+		    while(left<right && nums[left]<pivotValue){
+			left++;
+		    }
+		    while(left<right && nums[right]>=pivotValue){   //be careful >=
+			right--;
+		    }
+		    if(left<right){
+			int temp=nums[left];
+			nums[left]=nums[right];
+			nums[right]=temp;
+			left++;
+			right--;
+		    }
+		}
+		if(nums[left]<pivotValue)   //if all element is smaller than pivot. than the left will be equal to tmp;
+		    left++;
+		swap(nums, left, tmp); // Move pivot to its final place
+		return left;
+	}
+	
+	
+	
 	
 	private static void swap(int[] array, int a, int b) {
 		int tmp = array[a];
