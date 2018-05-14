@@ -4,8 +4,10 @@
 https://www.lintcode.com/submission/14497657
 
 2.sliding window problem:
+Note: how to move the left and right pointer is very important and applicable to all the sliding window problem.
 Minimum Window Substring lc 76   //this question is the pointer in the same direction. It's like a window.
 Longest Substring Without Repeating Characters: lc 3
+Longest Substring with At Least K Repeating Characters: lc 395 
 
 
 相向双指针：
