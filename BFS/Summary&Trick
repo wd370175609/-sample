@@ -25,10 +25,12 @@ classical example (level order):
 
 the time and space complexity are both O(n)
 
-BFS 序列化的问题：
+BFS 序列化的问题:
+Serialize and Deserialize Binary Tree: lc297   a little difficul, need to review.
 ex:
 Binary Tree Level Order Traversal II: leetcode 107
 Binary Tree Zigzag Order Traversal: leetcode 103
+Convert Binary Tree to Linked Lists by Depth:  https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
 
 BFS in graph:
 construct the graph, 邻接表
