@@ -43,6 +43,7 @@ Word Ladder I II: lc126 127.
 
 Topological sorting: refer to this.topolocal sorting.java
 idea is to find whether there is circle in the directed graph. The condition to be in queue is the node whose indegree is 0;
+ex:Course schedule: lc207
 
 
 
