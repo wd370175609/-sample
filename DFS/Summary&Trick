@@ -37,6 +37,10 @@ word search: lc 79
 
 combination: 通常画个tree来帮助思考
 Combinations: lc 77
+combination Sum: lc 39
+Combination Sum II III IV: difference is how to remove duplicates and sometimes use memorization! Total idea is almost the same
+just draw a tree to analyze the problem.
+
 
 question that need to improve the time complextiy using cached (DP): 
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
