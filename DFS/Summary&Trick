@@ -41,6 +41,10 @@ combination Sum: lc 39
 Combination Sum II III IV: difference is how to remove duplicates and sometimes use memorization! Total idea is almost the same
 just draw a tree to analyze the problem.
 
+permutation:
+ex: permutations: lc46
+    permutations II: lc47 (has a typical way to remove duplicates!(watch!));
+
 
 question that need to improve the time complextiy using cached (DP): 
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
