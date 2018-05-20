@@ -32,7 +32,7 @@ trick:
         
         
       
-word ladder I II: lc 126 & 127
+word ladder II: lc 127
 word search: lc 79
 
 combination: 通常画个tree来帮助思考
