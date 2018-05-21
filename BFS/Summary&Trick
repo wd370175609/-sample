@@ -40,6 +40,7 @@ construct the graph, 邻接表
 ex: Graph Valid Tree: this
 Surrounded Regions: lc 130
 Word Ladder I II: lc126 127.
+01 Matrix: lc542 (巧妙利用多个初始节点，按层进行BFS）
 
 Topological sorting: refer to this.topolocal sorting.java
 idea is to find whether there is circle in the directed graph. The condition to be in queue is the node whose indegree is 0;
