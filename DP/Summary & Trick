@@ -6,6 +6,8 @@ Triangle: Leetcode 120  Divide Conquer + Memorization = dp
 2 判断是否可行
 3 统计方案个数
 则极有可能是使用动态规划
+• 动态规划擅长与优化指数级别复杂度(2^n,n!)到多项式级别复杂度(n^2,n^3) 
+• 不擅长优化n^3到n^2
 
 
 分类：
