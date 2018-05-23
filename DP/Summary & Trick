@@ -28,7 +28,8 @@ Russian Doll Envelopes: lc354
 Trick: 
 1.有时候注意判断dp，可能是i+1，也可能是i-1
 2.有时候要考虑上一个情况（i-1）的分情况讨论，
-House Robber: lc198 lc213
+3.经常要判断上一个状态是否包括了更之前的状态
+House Robber: lc198 lc213 lc337(有技巧）
 Maximal Square: lc 221. 
 Delete and Earn: lc 740. similar to house robber.
 Dungeon Game: lc 174.  this is special because dp direction is different from other questions. 
