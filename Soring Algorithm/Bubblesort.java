@@ -8,10 +8,10 @@
     {
         int i, j, temp;
         boolean swapped;
-        for (i = 0; i < n - 1; i++) 
+        for (i = 0; i < n - 1; i++)    //只需要排n-1次。 
         {
             swapped = false;
-            for (j = 0; j < n - i - 1; j++) 
+            for (j = 0; j < n - i - 1; j++) //n-i-1通过举例就能方便记住
             {
                 if (arr[j] > arr[j + 1]) 
                 {
