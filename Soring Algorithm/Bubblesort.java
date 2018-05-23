@@ -1,7 +1,8 @@
 
-   Best complexity is O(n)
-   Worse is O(n^2)
-   
+//    Best complexity is O(n)
+//    Worse is O(n^2)
+//   space O(1)
+
    // An optimized version of Bubble Sort
     static void bubbleSort(int arr[], int n)
     {
