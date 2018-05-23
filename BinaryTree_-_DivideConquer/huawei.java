@@ -35,7 +35,7 @@ class TreeNode{
 public class Q9 {
 	
 	static List<Queue<TreeNode>> list;
-	static List<TreeNode> allnodes;
+
 	static Map<Character,TreeNode> map;
 	
 	
@@ -58,12 +58,12 @@ public class Q9 {
 	
 	public static void main(String[] args){
 		list = new ArrayList<>();
-		allnodes = new ArrayList<>();
 		map = new HashMap<>();
 		list.add(new LinkedList<TreeNode>());
 		
-		String str="a1b2c2d3e3f4";
-		String query="af";
+		String str="a1b2c2d3e3f3";
+		String query="ab";
+		//construct the tree with the help of queue
 		for(int i=0;i<str.length();i+=2){
 			int level=str.charAt(i+1)-'0';
 			TreeNode node=new TreeNode(str.charAt(i),level);
@@ -74,13 +74,14 @@ public class Q9 {
 			}
 			list.get(level).offer(node);
 			if(!list.get(level-1).isEmpty()){
-				TreeNode parent = list.get(level-1).peek();
+				TreeNode parent = list.get(level-1).peek();    //the parent of currentNode
 				if(parent.left==null){
 					parent.left=node;
 				}
 				else{
 					parent.right=node;
-					list.get(level-1).poll();
+					list.get(level-1).poll();   //when the parent node is full, the parent node should be removed from the specific queue so that 
+												//other parent node in the same level would get the chance to be added with left and right child.
 				}
 			}
 			
