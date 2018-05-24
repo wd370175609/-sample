@@ -2,7 +2,7 @@
 Description
 There are n coins in a line. Two players take turns to take one or two coins from right side until there are no more coins left. 
 The player who take the last coin wins.
-
+Could you please decide the first play will win or lose?
 
 
 public class Solution {
@@ -15,7 +15,7 @@ public class Solution {
      
      for example:
          5   先手
-       4   3     后手
+       4   3     后手  （左边是先手取一个， 右边是先手取两个的结果）如同minimax，这时候先手是有决定权的 （所以是或的关系）
       3 2  2 1     先手
       只有当4的下方都为true, 选4才能赢，同理，只有当3的下方都为true, 选3才能赢。 4和3之间是或的关系。
      
