@@ -50,6 +50,7 @@ Combination Sum IV:lc377 这道题题目类似于背包问题，但是由于顺�
 this.coin in the line |, ||
 
 区间型dp: 
+Stone game: https://www.lintcode.com/submission/14709621/
 Burst Balloons: lc 312 (注意for循环的顺序，是个套路）
 Palindromic Substrings: lc647
 Longest Palindromic Substring: lc5 (这道题只有设成区间型(i,j)，才能写出递推公式）
