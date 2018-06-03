@@ -41,6 +41,8 @@ Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解
 https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html
 Longest Increasing Path in a Matrix:lc 329! (自己写的模板，复习时候看!)
 Combination Sum IV:lc377 这道题题目类似于背包问题，但是由于顺序不同，结果也不同，所以难以写出递推公式，用memorization却能轻易解决。
+K sum:  https://www.lintcode.com/problem/k-sum/description   (最经典memorization问题。 先考虑divide conquer，然后考虑dp数组应该怎么
+表示， 画图可以找到重复的部分）
 
 什么时候用记忆化搜索? 
 1. 状态转移特别麻烦，不是顺序性。
@@ -65,6 +67,27 @@ a trick for writing code is that if input is string, the length of dp array shou
 背包类dp：
 Coin Change: lc322 lc518
 Ones and Zeroes: lc474
+
+backpack:  https://www.lintcode.com/problem/backpack/description
+记住save space complexity的模板：
+    public int backPack(int m, int[] A) {
+        // write your code here
+        if(m==0 || A==null || A.length==0)
+            return 0;
+        int l=A.length;
+        int[] dp = new int[m+1];
+
+        int temp;
+        for(int i=1;i<=l;i++){
+            for(int j=m;j>=1;j--){  //从后往前，可以画出矩阵来看，记住！！
+                if(j-A[i-1]>=0)
+                    dp[j]=Math.max(A[i-1]+dp[j-A[i-1]],dp[j]);
+            }
+        }
+        return dp[m];
+    }
+
+
 
 大类型DP（自己总结）: 如果只和上一个状态有关系，怎么space complexity可以降低为O(1)
 Best Time to Buy and Sell Stock:
