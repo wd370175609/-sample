@@ -14,7 +14,7 @@ class Solution {
         while(start+1<end){
             int mid = start + (end - start)/2;
             if(nums[mid]==target){
-                end = mid;
+                end = mid;     //be careful!!!
             }
             else if(nums[mid]<target){
                 start = mid;
