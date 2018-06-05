@@ -2,11 +2,13 @@ all the relative questions:
 
 正常递增序列：
 参考this.  那几道题
-
+search for a range:lc 34
 
 rotated array: (找出条件来判断mid在哪个区间)
 Find Minimum in Rotated Sorted Array: leetcode 153
 Search in Roated Sorted Array: leetcode 33    比较难记
+Maximum Number in Mountain Sequence: https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/description
+
 
 questions about matrix:
 Search 2D matrix: lc 74 lc 240 (this two questions have different kinds of arrays for searching.)
@@ -18,8 +20,6 @@ Smallest Rectangle Enclosing Black Pixels https://www.lintcode.com/problem/small
 
 Find Peak Element: leetcode 162
 Find K Closest Elements: lc 658 (specific for the loop condition, need to be remembered)
-
-
 First Bad Version: lc 278
 
 Is Subsequence: lc 392
