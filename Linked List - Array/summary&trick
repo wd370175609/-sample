@@ -9,7 +9,16 @@ ListNode cur = head;
             cur=temp;
         }
         
-example of linkedlist: 
+Reverse Linked List I:lc206
+Reverse Linked List II:lc92
+        
+trick:
+-(有时候要考虑处理的节点是表头或者表尾的特殊情况）
+-(申请ListNode变量时都赋上null)
+
+swap two nodes in linkedlist:  https://www.lintcode.com/problem/swap-two-nodes-in-linked-list/description 
+
+
 Reverse nodes in k-groups: leetcode 25
 Copy List with Random Pointer:  leetcode 138
 Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick
