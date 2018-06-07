@@ -21,7 +21,8 @@ swap two nodes in linkedlist:  https://www.lintcode.com/problem/swap-two-nodes-i
 
 Reverse nodes in k-groups: leetcode 25
 Copy List with Random Pointer:  leetcode 138
-Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick
+Linked List Cycle: linkedlist cycle 141 142. for 142, need to remember the trick(先找到快慢指针重合的位置设为cur, head和cur同时走，等
+head和cur相遇时，那个位置就是circle开始的位置)
 Reorder List: lc143
 
 trick: 画图来考虑连接的问题会让思路变得清晰。
