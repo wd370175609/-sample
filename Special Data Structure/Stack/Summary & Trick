@@ -1,5 +1,6 @@
 Relative questions:
 
+
 Basic Calculator: lc224
 Basic Calculator II: lc227
-Number of Atoms: lc726 
+Number of Atoms: lc726   括号优先想到用stack
