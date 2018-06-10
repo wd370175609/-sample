@@ -11,6 +11,9 @@ Longest Substring Without Repeating Characters: lc 3
 Longest Substring with At Least K Repeating Characters: lc 395   //比较特殊，考前需记忆。
 Permutation in String: lc 567
 
+3.特殊：
+Increasing Triplet Subsequence: lc334
+
 相向双指针：
 1，Two sum quesions and its follow up:   two sum is the two pointers in different directions.
 Basic two sum:
