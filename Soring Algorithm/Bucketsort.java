@@ -33,3 +33,7 @@ public class BucketSort{
       System.out.println("After:  " + Arrays.toString(data));
    }
 }
+
+
+//relative question 
+//Minimum Time Difference: lc 539
