@@ -1,6 +1,13 @@
+Trick:
+1.括号优先想到stack
+2.用if 条件来设定啥时候出栈啥时候进展，考虑所有情况后再写。
+
+
 Relative questions:
 
 
 Basic Calculator: lc224
 Basic Calculator II: lc227
 Number of Atoms: lc726   括号优先想到用stack
+
+Asteroid Collision：lc735
