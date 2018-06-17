@@ -93,7 +93,7 @@ sample code2 (当node不是整数时，father 数组改为map）
   
 Relative questions:
 
-Numbers of Islands II: https://zhengyang2015.gitbooks.io/lintcode/number_of_islands_ii_434.html
+Numbers of Islands II: lc 305
 Redundant Connection: lc684
 Accounts Merge: lc721
 Longest Consecutive Sequence：lc128
