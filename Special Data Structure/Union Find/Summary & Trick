@@ -1,4 +1,10 @@
-sample code:
+
+Trick:
+1.用sample code1时可以考虑将输入数组的index做为unionfind里的node。 例如Longest Consecutive Sequence：lc128
+2.unionfind可以用O(n)来解决问题
+
+
+sample code1:
 
 public class UnionFind(){
   private int[] father = null;
@@ -26,6 +32,20 @@ public class UnionFind(){
       father[root_a]=root_b;
   }
 }
+
+public int maximumlength(){  //找到最大的那个集合的大小
+            int[] count=new int[father.length];
+            int max=0;
+            for(int i=0;i<father.length;i++){
+                int node=find(i);
+                count[node]++;
+                max=Math.max(max,count[node]);
+            }
+            return max;
+        }
+
+
+
 
 sample code2 (当node不是整数时，father 数组改为map）
  class UnionFind{
@@ -76,3 +96,4 @@ Relative questions:
 Numbers of Islands II: https://zhengyang2015.gitbooks.io/lintcode/number_of_islands_ii_434.html
 Redundant Connection: lc684
 Accounts Merge: lc721
+Longest Consecutive Sequence：lc128
