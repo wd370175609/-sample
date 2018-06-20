@@ -37,9 +37,10 @@ Dungeon Game: lc 174.  this is special because dp direction is different from ot
 Longest Valid Parentheses: lc32
 Domino and Tromino Tiling: lc790 比较特殊，不仅仅和之前状态有关，还有其他的dp变量有关，所有dp变量同时递推。
 
-记忆化搜索（memorization):
+记忆化搜索（memorization): 
 trick:
 1.sometimes can use hashmap as cache
+2.很多memorization的题用start index带入递归函数， start经常可以用来表示cache的状态。如lc 140
 
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
 化搜索才能最优化。
