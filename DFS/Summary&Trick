@@ -49,5 +49,5 @@ ex: permutations: lc46
 question that need to improve the time complextiy using cached (DP): 
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
 Out of Boundary Paths:lc 576 (classical question using with memorization.)
-
+Word Break II :lc 140 (use hashmap as cache)
 
