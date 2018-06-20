@@ -15,12 +15,17 @@ Summary&Trick
   • Result in parameter vs Result in return value 
   • Top down vs Bottom up
   
- 
-For Divide Conquer, often create a resultType class, to easily store the current state variables(if we need more than 1 variable).
+Trick:
+
+1.For Divide Conquer, often create a resultType class, to easily store the current state variables(if we need more than 1 variable).
 Refer the question Balanced Binary Tree.
 
-For the questions that need maximum/minimum value, we need to use traverse or traverse combine divide_conquer, using a global
+2.For the questions that need maximum/minimum value, we need to use traverse or traverse combine divide_conquer, using a global
 variable to store and compare the value. 
+
+related questions:
+Largest BST Subtree: lc 333
+
 
 BST
 property: inorder traversal is non-decreasing. Can use it to check BST.
