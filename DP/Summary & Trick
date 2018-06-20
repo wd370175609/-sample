@@ -38,6 +38,9 @@ Longest Valid Parentheses: lc32
 Domino and Tromino Tiling: lc790 比较特殊，不仅仅和之前状态有关，还有其他的dp变量有关，所有dp变量同时递推。
 
 记忆化搜索（memorization):
+trick:
+1.sometimes can use hashmap as cache
+
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
 化搜索才能最优化。
 https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html
@@ -45,6 +48,7 @@ Longest Increasing Path in a Matrix:lc 329! (自己写的模板，复习时候�
 Combination Sum IV:lc377 这道题题目类似于背包问题，但是由于顺序不同，结果也不同，所以难以写出递推公式，用memorization却能轻易解决。
 K sum:  https://www.lintcode.com/problem/k-sum/description   (最经典memorization问题。 先考虑divide conquer，然后考虑dp数组应该怎么
 表示， 画图可以找到重复的部分）
+Word Break II: lc 140 (use hashmap as cache)
 
 什么时候用记忆化搜索? 
 1. 状态转移特别麻烦，不是顺序性。
