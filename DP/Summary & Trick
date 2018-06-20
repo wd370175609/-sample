@@ -41,6 +41,7 @@ Domino and Tromino Tiling: lc790 比较特殊，不仅仅和之前状态有关�
 trick:
 1.sometimes can use hashmap as cache
 2.很多memorization的题用start index带入递归函数， start经常可以用来表示cache的状态。如lc 140
+3.易错点。 经常没有在递归过程中新建一个list，而是修改了另外一层的list导致结果错误。
 
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
 化搜索才能最优化。
@@ -50,6 +51,7 @@ Combination Sum IV:lc377 这道题题目类似于背包问题，但是由于顺�
 K sum:  https://www.lintcode.com/problem/k-sum/description   (最经典memorization问题。 先考虑divide conquer，然后考虑dp数组应该怎么
 表示， 画图可以找到重复的部分）
 Word Break II: lc 140 (use hashmap as cache)
+All Paths From Source to Target: lc 797(use hashmap as cache)
 
 什么时候用记忆化搜索? 
 1. 状态转移特别麻烦，不是顺序性。
