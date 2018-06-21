@@ -36,6 +36,7 @@ Delete and Earn: lc 740. similar to house robber.
 Dungeon Game: lc 174.  this is special because dp direction is different from other questions. 
 Longest Valid Parentheses: lc32
 Domino and Tromino Tiling: lc790 比较特殊，不仅仅和之前状态有关，还有其他的dp变量有关，所有dp变量同时递推。
+Arithmetic Slices: lc413
 
 记忆化搜索（memorization): 
 trick:
