@@ -91,7 +91,7 @@ backpack:  https://www.lintcode.com/problem/backpack/description
 
         int temp;
         for(int i=1;i<=l;i++){
-            for(int j=m;j>=1;j--){  //从后往前，可以画出矩阵来看，记住！！
+            for(int j=m;j>=1;j--){  //从后往前，可以画出矩阵来看，记住！！ 只用从后往前才不会覆盖掉上一层的值。
                 if(j-A[i-1]>=0)
                     dp[j]=Math.max(A[i-1]+dp[j-A[i-1]],dp[j]);
             }
