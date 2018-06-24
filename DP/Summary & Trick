@@ -73,7 +73,8 @@ Longest Palindromic Substring: lc5 (这道题只有设成区间型(i,j)，才能
 this. longest common subsequence
 Edit Distance: lc 72
 Distinct Subsequences: lc 115 
-Interleaving String: lc 97(未完成）
+Interleaving String: lc 97
+Minimum Swaps To Make Sequences Increasing: lc 801  设了两个dp变量，因为有四种可能性
 a trick for writing code is that if input is string, the length of dp array should be str.length+1;
 
 背包类dp：
