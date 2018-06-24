@@ -102,7 +102,7 @@ backpack:  https://www.lintcode.com/problem/backpack/description
 
 
 
-大类型DP（自己总结）: 如果只和上一个状态有关系，怎么space complexity可以降低为O(1)
+大类型DP（自己总结）: 如果只和上一个状态有关系，怎么space complexity可以降低为O(1)  refer to lc188!!
 Best Time to Buy and Sell Stock:
 
 T[i][k][0](ending in ith index and at most k!!!(at most is important) transaction ending in 0 stock),  
