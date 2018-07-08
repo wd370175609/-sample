@@ -6,6 +6,7 @@ Matchsticks to Square: lc 473
 Palindrome Partitioning: lc 131
 
 search in graph: 
+Minesweeper: lc529
 trick: 
 1.在matrix中搜索四个方向时，设两个数组有时候可以简化代码
     int[] dx = {-1, 1, 0, 0};
@@ -29,7 +30,7 @@ trick:
         }
         visited[x][y]=false;      // be careful when to recover the visited
  2.画dfs的搜索树的时候如果有很多的节点是相等的，就可以考虑memorization
-        
+
         
       
 word ladder II: lc 127
