@@ -59,7 +59,7 @@ sample code2 (当node不是整数时，father 数组改为map）
         //compress the search path.  cost O(1) to find the root.
         public String find(String node){
             String parent = father.get(node);
-            while(!parent.equals(father.get(parent))){
+            while(!parent.equals(father.get(parent))){  //路径压缩能节省循环的时间，所以到最后就变成O(1)
                 parent = father.get(parent);
             }
             String temp = "";
@@ -97,3 +97,4 @@ Numbers of Islands II: lc 305
 Redundant Connection: lc684
 Accounts Merge: lc721
 Longest Consecutive Sequence：lc128
+Number of Connected Components in an Undirected Graph: lc323
