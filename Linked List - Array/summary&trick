@@ -57,3 +57,8 @@ Number of Subarrays with Bounded Maximum: lc795
 Subarray Sum Equals K: leetcode 560
 
 subarray sum closes: linkcode 还未看
+
+比较trick的array的题目:
+Find All Duplicates in an Array: lc442 因为题目中出现2，考虑flip数节省空间复杂度。
+
+则有 Sum(i~j) = PrefixSum[j + 1] - PrefixSum[i]
