@@ -13,6 +13,7 @@ Permutation in String: lc 567
 
 3.特殊：
 Increasing Triplet Subsequence: lc334
+Longest Mountain in Array: lc845. 有点类似于sliding window, 一个值到位后，变化另一个值。
 
 相向双指针：
 1，Two sum quesions and its follow up:   two sum is the two pointers in different directions.
