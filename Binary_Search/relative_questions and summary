@@ -11,7 +11,10 @@ Maximum Number in Mountain Sequence: https://www.lintcode.com/problem/maximum-nu
 
 
 questions about matrix:
-Search 2D matrix: lc 74 lc 240 (this two questions have different kinds of arrays for searching.)
+Search 2D matrix: 
+1.lc 74 (比较经典2D)
+2.lc 240;   Kth Smallest Element in a Sorted Matrix: lc 378 (上下左右都得满足递增，解法是考虑右上角的数）
+
 Smallest Rectangle Enclosing Black Pixels https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels/description
 
 
