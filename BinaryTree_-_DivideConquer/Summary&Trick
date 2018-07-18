@@ -15,6 +15,10 @@ Summary&Trick
   • Result in parameter vs Result in return value 
   • Top down vs Bottom up
   
+  
+preorder:
+Verify Preorder Sequence in Binary Search Tree:lc 255
+  
 Trick:
 
 1.For Divide Conquer, often create a resultType class, to easily store the current state variables(if we need more than 1 variable).
@@ -33,5 +37,8 @@ property: inorder traversal is non-decreasing. Can use it to check BST.
 For Preorder and Inorder traverse, recite the stack solution.
 
 Delete Node in BST: LC450
+
+Verify Preorder Sequence in Binary Search Tree： lc255 注意stack的解法。divide conquer解法太难想到。
+
 
 
