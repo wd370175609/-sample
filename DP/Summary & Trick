@@ -21,6 +21,7 @@ Longest Increasing Subsequence: lc300, use dp cost O(n^2), use binary seach cost
 Largest Divisible Subset: lc368  cost O(n^2). sometimes if we want to output the result, we can use an array to store last state
 of dp.(保存上一个状态).  compare lc300 and lc368, both need to find the minimum or maximum value from the state before. 
 Palindrome Partitioning II： lc132. 注意这道题为什么不设置成区间dp[i][j]的原因，从而降低时间复杂度。
+Number of Longest Increasing Subsequence: lc673
 
 Russian Doll Envelopes: lc354
 
