@@ -10,7 +10,8 @@ all the relative questions:
 search for a range:lc 34
 
 rotated array: (找出条件来判断mid在哪个区间)
-Find Minimum in Rotated Sorted Array: leetcode 153
+Find Minimum in Rotated Sorted Array: leetcode 153 得用nums[end]做为判断条件而不是nums[start],因为要考虑1，2，3，4的情况。
+Find Minimum in Rotated Sorted Array II: lc154 多加一句话，防止nums[end]==nums[start]情况的出现
 Search in Roated Sorted Array: leetcode 33    比较难记
 Maximum Number in Mountain Sequence: https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/description
 
