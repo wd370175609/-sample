@@ -16,8 +16,7 @@ Summary&Trick
   • Top down vs Bottom up
   
   
-preorder:
-Verify Preorder Sequence in Binary Search Tree:lc 255
+
   
 Trick:
 
@@ -26,9 +25,17 @@ Refer the question Balanced Binary Tree.
 
 2.For the questions that need maximum/minimum value, we need to use traverse or traverse combine divide_conquer, using a global
 variable to store and compare the value. 
-
 related questions:
 Largest BST Subtree: lc 333
+
+
+
+questions about level traverse:
+Maximum Width of Binary Tree: lc 622
+
+
+preorder:
+Verify Preorder Sequence in Binary Search Tree:lc 255
 
 
 BST
