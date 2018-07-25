@@ -52,3 +52,7 @@ Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!
 Out of Boundary Paths:lc 576 (classical question using with memorization.)
 Word Break II :lc 140 (use hashmap as cache)
 
+
+divide && conquer:
+additive number: lc 306
+
