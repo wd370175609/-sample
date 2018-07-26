@@ -38,6 +38,7 @@ Dungeon Game: lc 174.  this is special because dp direction is different from ot
 Longest Valid Parentheses: lc32
 Domino and Tromino Tiling: lc790 比较特殊，不仅仅和之前状态有关，还有其他的dp变量有关，所有dp变量同时递推。
 Arithmetic Slices: lc413
+Maximum Product Subarray:lc152  比较特殊，有两个dp变量，互相有关系
 
 记忆化搜索（memorization): 
 trick:
