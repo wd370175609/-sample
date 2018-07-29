@@ -46,6 +46,7 @@ For Preorder and Inorder traverse, recite the stack solution.
 Delete Node in BST: LC450
 
 Verify Preorder Sequence in Binary Search Tree： lc255 注意stack的解法。divide conquer解法太难想到。
+Inorder Successor in BST: lc285。 using divide conquer. A little trick (need to review) but very good question to learn divide conquer.
 
 
 
