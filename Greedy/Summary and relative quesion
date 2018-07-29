@@ -1,0 +1,6 @@
+笔记总结greedy主要分为两个大类
+1. interval schedule
+利用数学归纳法证明我们的解法优于optimal解法，从而证明我们的解法就是optimal。 例如：我们的第k个element永远在optimal的第k个element的右边。
+
+2. 寻找inversion
+解法是定义inversion,证明：如果我们能消除optimal中的inversion，那么optimal的解法仍然是optimal的，并且那个解法就是我们的解法。
