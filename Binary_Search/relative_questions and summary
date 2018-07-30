@@ -1,6 +1,6 @@
 trick:
 1.当不能用经典模板的时候，如何写if else？ 现在尝试举例，希望通过后续练习找寻规律。
-
+例如：lc540
 
 
 all the relative questions:
@@ -8,6 +8,7 @@ all the relative questions:
 正常递增序列：
 参考this.  那几道题
 search for a range:lc 34
+Single Element in a Sorted Array: lc540 这道题比较trick，没有明确移动的判断基准，需要举例来寻找左右移动的条件。
 
 rotated array: (找出条件来判断mid在哪个区间)
 Find Minimum in Rotated Sorted Array: leetcode 153 得用nums[end]做为判断条件而不是nums[start],因为要考虑1，2，3，4的情况。
