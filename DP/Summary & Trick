@@ -79,7 +79,8 @@ Edit Distance: lc 72
 Distinct Subsequences: lc 115 
 Interleaving String: lc 97
 Minimum Swaps To Make Sequences Increasing: lc 801  设了两个dp变量，因为有四种可能性
-a trick for writing code is that if input is string, the length of dp array should be str.length+1;
+Minimum ASCII Delete Sum for Two Strings: lc712
+a trick for writing code is that if input is string, the length of dp array should be str.length+1;!!!!!!!!
 
 背包类dp：
 Coin Change: lc322 lc518
