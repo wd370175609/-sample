@@ -1,6 +1,6 @@
 
 implementation:
-Implement Trie (Prefix Tree): lc 208
+Implement Trie (Prefix Tree): lc 208   isWord注意别漏了。
 
 hashmap vs Trie:
 time complexity is the same.
