@@ -55,4 +55,11 @@ Word Break II :lc 140 (use hashmap as cache)
 
 divide && conquer:
 additive number: lc 306
+Generalized Abbreviation: lc 320  这题用traverse也能解决
+
+DFS tree比较trick的题：
+Generalized Abbreviation: lc 320
+
+
+
 
