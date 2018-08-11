@@ -47,10 +47,11 @@ median of two sorted array: leetcode 4
 
 subarray 类型:
 trick:
-子数组 Subarray
+1.子数组 Subarray
 令 PrefixSum[i] = A[0] + A[1] + ... A[i - 1], PrefixSum[0] = 0 易知构造 PrefixSum 耗费 O(n) 时间和 O(n) 空间
 如需计算子数组从下标i到下标j之间的所有数之和
 则有 Sum(i~j) = PrefixSum[j + 1] - PrefixSum[i]
+
 
 example: 
 Number of Subarrays with Bounded Maximum: lc795
@@ -60,6 +61,8 @@ Contiguous Array: lc525 经典presum
 Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity. Very good question!
 
 比较trick的array的题目:
-Find All Duplicates in an Array: lc442 因为题目中出现2，考虑flip数节省空间复杂度。
+1.Find All Duplicates in an Array: lc442 因为题目中出现2，考虑flip数节省空间复杂度。
 
 则有 Sum(i~j) = PrefixSum[j + 1] - PrefixSum[i]
+
+2.Max Chunks To Make Sorted: lc 769    
