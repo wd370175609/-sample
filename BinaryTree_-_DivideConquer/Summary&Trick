@@ -28,10 +28,14 @@ variable to store and compare the value.
 related questions:
 Largest BST Subtree: lc 333
 
+3.according to the output order, we can think about using pre, in, post order, or using BFS for level order.
+
 
 
 questions about level traverse:
 Maximum Width of Binary Tree: lc 622
+ Binary Tree Vertical Order Traversal: lc314 好题！能拓展思路
+
 
 
 preorder:
