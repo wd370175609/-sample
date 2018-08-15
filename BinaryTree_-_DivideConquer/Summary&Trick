@@ -53,4 +53,7 @@ Verify Preorder Sequence in Binary Search Tree： lc255 注意stack的解法。d
 Inorder Successor in BST: lc285。 using divide conquer. A little trick (need to review) but very good question to learn divide conquer.
 
 
+Divide Conquer non tree question:
+Different Ways to Add Parentheses: lc241 经典！
+
 
