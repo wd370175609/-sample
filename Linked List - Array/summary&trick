@@ -66,3 +66,5 @@ Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity.
 则有 Sum(i~j) = PrefixSum[j + 1] - PrefixSum[i]
 
 2.Max Chunks To Make Sorted: lc 769    
+
+3.Number of Matching Subsequences: lc792 
