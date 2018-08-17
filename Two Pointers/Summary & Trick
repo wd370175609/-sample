@@ -10,6 +10,7 @@ Minimum Window Substring lc 76   //this question is the pointer in the same dire
 Longest Substring Without Repeating Characters: lc 3
 Longest Substring with At Least K Repeating Characters: lc 395   //比较特殊，考前需记忆。
 Permutation in String: lc 567
+Longest Repeating Character Replacement: lc424
 
 3.特殊：
 Increasing Triplet Subsequence: lc334
