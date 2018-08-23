@@ -30,6 +30,8 @@ follow up: 3SUM closest: leetcode 16
 
 4SUM: lc18 (make use of 2SUM and 3SUM, should remove duplicate in all functions.)
 
+Sort Transformed Array:lc 360
+
 2.Valid Triangle Number: leetcode 611  trick is (for the sorted array, we just need to consider whether a+b>c! that's enough)
 
 
