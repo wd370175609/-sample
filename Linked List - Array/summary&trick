@@ -68,3 +68,5 @@ Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity.
 2.Max Chunks To Make Sorted: lc 769    
 
 3.Number of Matching Subsequences: lc792 
+
+4.Majority Element I，II: lc 169, lc 229
