@@ -11,7 +11,7 @@ Longest Substring Without Repeating Characters: lc 3
 Longest Substring with At Least K Repeating Characters: lc 395   //比较特殊，考前需记忆。
 Permutation in String: lc 567
 Longest Repeating Character Replacement: lc424
-
+Partition Labels: lc 763
 3.特殊：
 Increasing Triplet Subsequence: lc334
 Longest Mountain in Array: lc845. 有点类似于sliding window, 一个值到位后，变化另一个值。
