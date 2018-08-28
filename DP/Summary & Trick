@@ -60,6 +60,7 @@ All Paths From Source to Target: lc 797(use hashmap as cache)
 Split Array Largest Sum: lc 410
 Integer Break: lc 343 经典
 Largest Sum of Averages: lc813
+Knight Probability in Chessboard: lc688 典型记忆化搜索
 什么时候用记忆化搜索? 
 1. 状态转移特别麻烦，不是顺序性。
 2. 初始化状态不是很容易找到。
