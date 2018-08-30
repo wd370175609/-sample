@@ -57,8 +57,9 @@ divide && conquer:
 additive number: lc 306
 Generalized Abbreviation: lc 320  这题用traverse也能解决
 
-DFS tree比较trick的题：
+DFS 比较trick的题：
 Generalized Abbreviation: lc 320
+Number of Distinct Islands: lc 694
 
 
 
