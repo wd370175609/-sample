@@ -43,10 +43,14 @@ Word Ladder I II: lc126 127.
 01 Matrix: lc542 (巧妙利用多个初始节点，按层进行BFS）
 Shortest Distance from All Buildings: lc317  (设置visited的位置，在刚添加进queue的时候就设置！！！！！)
 Is Graph Bipartite?: lc785  仍然注意表示visited的方式。
+Race Car: lc818 bfs with prune. A little tricky! good example
+
 
 Topological sorting: refer to this.topolocal sorting.java
 idea is to find whether there is circle in the directed graph. The condition to be in queue is the node whose indegree is 0;
 ex:Course schedule: lc207
+
+
 
 
 
