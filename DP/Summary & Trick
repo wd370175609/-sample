@@ -67,6 +67,7 @@ Knight Probability in Chessboard: lc688 典型记忆化搜索
  
 博弈dp：用搜索的角度去找状态之间的关系 (可以用memorization 写，也可以用普通写法）。
 this.coin in the line |, ||
+Can I Win: lc 464 利用memorization
 
 区间型dp: 
 Stone game: https://www.lintcode.com/submission/14709621/
