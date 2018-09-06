@@ -12,7 +12,7 @@ Non-overlapping Intervals:lc 435
 2. 寻找inversion
 解法是定义inversion,证明：如果我们能消除optimal中的inversion，那么optimal的解法仍然是optimal的，并且那个解法就是我们的解法。
 Partition Labels: lc763
-
+Monotone Increasing Digits: lc738
 
 
 其他类：
