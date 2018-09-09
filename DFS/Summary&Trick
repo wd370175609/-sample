@@ -60,7 +60,7 @@ Generalized Abbreviation: lc 320  这题用traverse也能解决
 DFS 比较trick的题：
 Generalized Abbreviation: lc 320
 Number of Distinct Islands: lc 694
-Valid Parenthesis String: lc678 括号相关的解法
+Valid Parenthesis String: lc678 括号相关的解法，以后都用count的方式
 
 
 
