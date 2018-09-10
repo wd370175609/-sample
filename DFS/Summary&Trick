@@ -57,6 +57,8 @@ divide && conquer:
 additive number: lc 306
 Generalized Abbreviation: lc 320  这题用traverse也能解决
 
+traverse:
+Increasing Subsequences:lc 491 good example for compare traverse with divide & conquer.
 DFS 比较trick的题：
 Generalized Abbreviation: lc 320
 Number of Distinct Islands: lc 694
