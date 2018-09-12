@@ -74,3 +74,5 @@ Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity.
 5.Spiral Matrix I II: lc54 lc59
 
 6.Global and Local Inversions: lc775
+
+7.Diagonal Traverse: lc498
