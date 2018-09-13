@@ -1,5 +1,8 @@
 trick:
 1.当不能用经典模板的时候，如何写if else？ 现在尝试举例，希望通过后续练习找寻规律。
+2.规律：
+因为start+(end-start)/2 最后是向左趋近，所以end可以等于mid也可以使end能够向左趋近，start=mid+1。参考Maximum Number in Mountain Sequence
+
 例如：lc540
 
 
@@ -13,14 +16,15 @@ Single Element in a Sorted Array: lc540 这道题比较trick，没有明确移�
 rotated array: (找出条件来判断mid在哪个区间)
 Find Minimum in Rotated Sorted Array: leetcode 153 得用nums[end]做为判断条件而不是nums[start],因为要考虑1，2，3，4的情况。
 Find Minimum in Rotated Sorted Array II: lc154 多加一句话，防止nums[end]==nums[start]情况的出现
-Search in Roated Sorted Array: leetcode 33    比较难记
+Search in Roated Sorted Array: leetcode 33    分成四个区间
 Maximum Number in Mountain Sequence: https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/description
 
 
 questions about matrix:
 Search 2D matrix: 
 1.lc 74 (比较经典2D)
-2.lc 240;   Kth Smallest Element in a Sorted Matrix: lc 378 (上下左右都得满足递增，解法是考虑右上角的数）
+2.lc 240;  (上下左右都得满足递增，解法是考虑右上角的数）
+3.Kth Smallest Element in a Sorted Matrix: lc 378 it is tricky to find the target. 
 
 Smallest Rectangle Enclosing Black Pixels https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels/description
 
