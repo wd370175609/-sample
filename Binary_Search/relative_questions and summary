@@ -4,6 +4,10 @@ trick:
 因为start+(end-start)/2 最后是向左趋近，所以end可以等于mid也可以使end能够向左趋近，start=mid+1。参考Maximum Number in Mountain Sequence
 
 例如：lc540
+3.start + (end - start) / 2 won't overflow if start and end are large positive numbers. With signed operands, overflow is undefined:
+int start = 0x7ffffffe, end = 0x7fffffff;
+int mid = start + (end - start) / 2; // works as expected
+int mid = (start + end) / 2;         // overflow... undefined
 
 
 all the relative questions:
@@ -32,10 +36,10 @@ Smallest Rectangle Enclosing Black Pixels https://www.lintcode.com/problem/small
 
 乱序数组的binary search：
 Minimum Size Subarray Sum: lc209
-
-
-
 Find Peak Element: leetcode 162
+
+
+找k个ele
 Find K Closest Elements: lc 658 (specific for the loop condition, need to be remembered)
 First Bad Version: lc 278
 
