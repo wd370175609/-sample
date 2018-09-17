@@ -1,9 +1,24 @@
+
+Trick of DFS:
 for solving the solution:
   draw the DFS tree first
+consider the difference between combination and permutation: 
+1.if number in input are not unique, the remove duplication way is similar but a little different, which need to be remembered. 
+2.combination will use startindex to control how the dfs go in the tree. 
+  permutation may use if(list.contains) or visited[] array to control how the dfs go in the tree.
+3.permutation 是排列问题经典类型
+  combination 是组合问题经典类型
+4.DFS 不是排列就是组合
+
+
+
+
 
 partition:
 Matchsticks to Square: lc 473
 Palindrome Partitioning: lc 131
+Partition to K Equal Sum Subsets: lc698. sort array for pruning.
+Restore IP Addresses  :lc93
 
 search in graph: 
 Minesweeper: lc529
@@ -31,26 +46,34 @@ trick:
         visited[x][y]=false;      // be careful when to recover the visited
  2.画dfs的搜索树的时候如果有很多的节点是相等的，就可以考虑memorization
 
-        
-      
+Word Ladder: leetcode 126 127
+Predict the Winner: lc 486 （minimax)
+Pacific Atlantic Water Flow: lc 417      
 word ladder II: lc 127
 word search: lc 79
+N Queens: leetcode 51 52
+
+
 
 combination: 通常画个tree来帮助思考
 Combinations: lc 77
 combination Sum: lc 39
 Combination Sum II III IV: difference is how to remove duplicates and sometimes use memorization! Total idea is almost the same
 just draw a tree to analyze the problem.
+Combination sum: 39 40 216
+
 
 permutation:
 ex: permutations: lc46
     permutations II: lc47 (has a typical way to remove duplicates!(watch!));
 
 
+
 question that need to improve the time complextiy using cached (DP): 
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
 Out of Boundary Paths:lc 576 (classical question using with memorization.)
 Word Break II :lc 140 (use hashmap as cache)
+
 
 
 divide && conquer:
