@@ -73,12 +73,14 @@ question that need to improve the time complextiy using cached (DP):
 Longest Increasing Path in a Matrix:lc 329 (this is a sample using memorization!!!!!!!!!);
 Out of Boundary Paths:lc 576 (classical question using with memorization.)
 Word Break II :lc 140 (use hashmap as cache)
-
+Loud and Rich: lc 851 very good question.
 
 
 divide && conquer:
 additive number: lc 306
 Generalized Abbreviation: lc 320  这题用traverse也能解决
+Loud and Rich: lc 851
+
 
 traverse:
 Increasing Subsequences:lc 491 good example for compare traverse with divide & conquer.
