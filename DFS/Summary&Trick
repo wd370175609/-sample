@@ -56,11 +56,11 @@ N Queens: leetcode 51 52
 
 
 combination: 通常画个tree来帮助思考
-Combinations: lc 77
+Combinations: lc 77     space complexity is O(k).  time complexity:https://stackoverflow.com/questions/31120402/complexity-when-generating-all-combinations
 combination Sum: lc 39
 Combination Sum II III IV: difference is how to remove duplicates and sometimes use memorization! Total idea is almost the same
 just draw a tree to analyze the problem.
-Combination sum: 39 40 216
+
 
 
 permutation:
