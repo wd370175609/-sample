@@ -14,6 +14,8 @@ all the relative questions:
 
 正常递增序列：
 参考this.  那几道题
+find first element: 可以用start<end解决 不存在死循环，因为start+end)/2靠左，并且start=mid+1，所以start一定会接近于end
+find last element: 不能用start<end解决， 存在死循环，因为此时end=mid-1， start=midm, 但是start+end)/2可能导致mid一直卡在start的位置，无法接近end 
 search for a range:lc 34
 Single Element in a Sorted Array: lc540 这道题比较trick，没有明确移动的判断基准，需要举例来寻找左右移动的条件。
 First Bad Version: lc 278
