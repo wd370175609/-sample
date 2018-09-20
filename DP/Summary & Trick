@@ -85,7 +85,8 @@ Minimum ASCII Delete Sum for Two Strings: lc712
 a trick for writing code is that if input is string, the length of dp array should be str.length+1;!!!!!!!!
 
 背包类dp：
-Coin Change: lc322 lc518
+Coin Change: lc322 这题注意可以重复使用
+             lc518
 Ones and Zeroes: lc474
 
 backpack:  https://www.lintcode.com/problem/backpack/description
