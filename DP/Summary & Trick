@@ -108,7 +108,8 @@ backpack:  https://www.lintcode.com/problem/backpack/description
         return dp[m];
     }
 
-
+表达式不好想的一些dp题目：
+Binary Trees With Factors:lc 823
 
 大类型DP（自己总结）: 如果只和上一个状态有关系，怎么space complexity可以降低为O(1)  refer to lc188!!
 Best Time to Buy and Sell Stock:
