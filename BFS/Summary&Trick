@@ -34,6 +34,8 @@ ex:
 Binary Tree Level Order Traversal II: leetcode 107
 Binary Tree Zigzag Order Traversal: leetcode 103
 Convert Binary Tree to Linked Lists by Depth:  https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
+Word Ladder: lc 127  trick is how to compare two words in a fast way.
+
 
 BFS in graph:
 construct the graph, 邻接表
