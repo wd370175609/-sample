@@ -9,7 +9,7 @@ consider the difference between combination and permutation:
 3.permutation 是排列问题经典类型
   combination 是组合问题经典类型
 4.DFS 不是排列就是组合
-
+5.考虑添加节点，和节点出栈两个时间点，屡清逻辑
 
 
 
