@@ -12,6 +12,35 @@ Longest Substring with At Least K Repeating Characters: lc 395   //比较特殊�
 Permutation in String: lc 567
 Longest Repeating Character Replacement: lc424
 Partition Labels: lc 763
+Shortest Subarray with Sum at Least K： lc862 //无法套用template
+
+trick: a template:
+int findSubstring(string s){
+        vector<int> map(128,0);
+        int counter; // check whether the substring is valid
+        int begin=0, end=0; //two pointers, one point to tail and one  head
+        int d; //the length of substring
+
+        for() { /* initialize the hash map here */ }
+
+        while(end<s.size()){
+
+            if(map[s[end++]]-- ?){  /* modify counter here */ }
+
+            while(/* counter condition */){ 
+                 
+                 /* update d here if finding minimum*/
+
+                //increase begin to make it invalid/valid again
+                
+                if(map[s[begin++]]++ ?){ /*modify counter here*/ }
+            }  
+
+            /* update d here if finding maximum*/
+        }
+        return d;
+  }
+
 3.特殊：
 Increasing Triplet Subsequence: lc334
 Longest Mountain in Array: lc845. 有点类似于sliding window, 一个值到位后，变化另一个值。
