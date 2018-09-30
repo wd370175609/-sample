@@ -30,6 +30,7 @@ Largest BST Subtree: lc 333
 
 3.according to the output order, we can think about using pre, in, post order, or using BFS for level order.
 
+4.check临界条件时判断需不需要识别leave，举例子
 
 
 questions about level traverse:
