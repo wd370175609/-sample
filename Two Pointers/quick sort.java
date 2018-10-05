@@ -17,7 +17,7 @@ public class Solution {
             return;
         }
 
-        int index = rand.nextInt(end - start + 1)  + start;  //remember
+        int index = rand.nextInt(end - start + 1)  + start;  //remember  Returns a pseudorandom, uniformly distributed int value between 0 (inclusive) and the specified value (exclusive)
         int pivot = A[index];
         int left = start;
         int right = end;
