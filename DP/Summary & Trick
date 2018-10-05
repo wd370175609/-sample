@@ -24,7 +24,7 @@ Palindrome Partitioning II： lc132. 注意这道题为什么不设置成区间d
 Number of Longest Increasing Subsequence: lc673
 Russian Doll Envelopes: lc354
 Maximum Length of Repeated Subarray: lc718 降低空间复杂度的经典题
-
+2 keys keyboard: lc650 try to find all privious value where i%j==0
 序列型动态规划： 这类题目特点
 • f[i] = max(f[i-1], f[i-2] + A[i]); 由 f[i-1],f[i-2] 来决定状态， 不再是找前面状态的最大或最小值。
 Trick: 
