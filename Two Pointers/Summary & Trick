@@ -57,7 +57,7 @@ follow up: Two Sum Closest: 比two sum多出来的地方就是在过程中要记
 3SUM: leetcode 15 (make use of 2SUM, difficult part is remove duplicate) sorted array first, so that we can remove duplicate. 
                   As O(n^2) is the time complexity, we do not care sorting time. Try to think about how to remove duplicate 
                   in this case: 1123346
-follow up: 3SUM closest: leetcode 16
+follow up: 3SUM closest: leetcode 16  make use of 2SUM closest.
 
 4SUM: lc18 (make use of 2SUM and 3SUM, should remove duplicate in all functions.)
 
