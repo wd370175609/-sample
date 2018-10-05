@@ -65,12 +65,14 @@ Sort Transformed Array:lc 360
 
 
 3.Partition Array:
+trick:
+1.remember some little differences between quick sort, quick select and partition.!!!
 
 example: 
 this.partition array.java
 quick sort: this.quick sort
-quick select: this.quick_select        https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array/my-submissions
-Kth Largest Element in an Array: lc215. using quick select.
+quick select: this.quick_select    记！！    https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array/my-submissions
+Kth Largest Element in an Array: lc215. using quick select.   
 
 
 4.
