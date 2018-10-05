@@ -124,7 +124,7 @@ public final class QuickSelect {
 		    while(left<right && nums[left]<pivotValue){
 			left++;
 		    }
-		    while(left<right && nums[right]>=pivotValue){   //be careful >=
+		    while(left<right && nums[right]>=pivotValue){   //be careful >=  是希望把left移到第一个>=pivotValue的位置，最后再和pivot所在的位置置换
 			right--;
 		    }
 		    if(left<right){
