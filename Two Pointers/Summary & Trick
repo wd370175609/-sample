@@ -13,6 +13,7 @@ Permutation in String: lc 567
 Longest Repeating Character Replacement: lc424
 Partition Labels: lc 763
 Shortest Subarray with Sum at Least K： lc862 //无法套用template
+this.remove_space: good example for understand the 物理意义
 
 trick: a template:
 int findSubstring(string s){
