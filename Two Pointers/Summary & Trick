@@ -14,6 +14,8 @@ Longest Repeating Character Replacement: lc424
 Partition Labels: lc 763
 Shortest Subarray with Sum at Least K： lc862 //无法套用template
 this.remove_space: good example for understand the 物理意义
+this.remove_adjacent_duplicates: 利用two pointer模拟stack。能够帮助理解物理意义。
+
 
 trick: a template:
 int findSubstring(string s){
