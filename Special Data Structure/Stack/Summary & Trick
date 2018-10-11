@@ -13,3 +13,4 @@ Number of Atoms: lc726   括号优先想到用stack
 Asteroid Collision：lc735
 Daily Temperatures： lc739
 Next Greater Element II： lc 503 想象一个进栈出栈的过程
+Largest Rectangle in Histogram： lc84 理解物理意义。
