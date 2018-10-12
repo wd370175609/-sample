@@ -116,6 +116,8 @@ Best Time to Buy and Sell Stock:  (I II not use dp)
 
 T[i][k][0](ending in ith index and at most k!!!(at most is important) transaction ending in 0 stock),  
 T[i][k][1] (ending in ith index and at most k!!!(at most is important) transaction ending in 1 stock);
+
+初值？？
 Base cases:
 T[-1][k][0] = 0, T[-1][k][1] = -Infinity
 T[i][0][0] = 0, T[i][0][1] = -Infinity
