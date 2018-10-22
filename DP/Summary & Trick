@@ -135,4 +135,9 @@ some tricks:
 Ex: Continuous Subarray Sum: lc523
 2.save space complexity:
 dp[i][j]=dp[i-1][j-1]   refer lc718. traverse matrix diagonally.
+another good example for saving space complexity:
+if dp[i][j]={dp[i-1][j-1],dp[i][j-1],dp[i+1][j-1]}  consider about adding one more variable to store dp[i-1][j-1] every time
+see Google:Unique_Path
+
+3.if dp[i][j]和dp[i-1][j-k]有关系，improve space时候j从后往前遍历!!!
 
