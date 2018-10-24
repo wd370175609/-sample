@@ -8,7 +8,7 @@ public List<Integer> preorderTraversal(TreeNode root) {
         while(!stack.isEmpty()){
             TreeNode temp=stack.pop();
             res.add(temp.val);
-            if(temp.right!=null)
+            if(temp.right!=null)                //right push first, pop last
                 stack.push(temp.right);
             if(temp.left!=null)
                 stack.push(temp.left);
