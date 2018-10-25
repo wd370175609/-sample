@@ -27,3 +27,8 @@ int peek(int stackNum){
 boolean isEmpty(int stackNum){
   return stackPointer[stackNum]==0;
 }
+
+
+//follow up
+//design a stack which also has a function min which returns the minimum element in O(1)
+We can use an additional stack which keeps track of the mins.
