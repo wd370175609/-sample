@@ -16,6 +16,10 @@ Shortest Subarray with Sum at Least K： lc862 //无法套用template
 this.remove_space: good example for understand the 物理意义
 this.remove_adjacent_duplicates: 利用two pointer模拟stack。能够帮助理解物理意义。
 candy: leetcode 135
+using stack to store the left pointer:
+ex:
+1.Largest Rectangle in Histogram： lc84 理解物理意义。
+2.Trapping Rain Water: lc42
 
 
 trick: a template:
