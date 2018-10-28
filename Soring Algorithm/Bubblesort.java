@@ -3,12 +3,12 @@
 //    Worse is O(n^2)
 //   space O(1)
 
-   // An optimized version of Bubble Sort
+   // An optimized version of Bubble Sort. 
     static void bubbleSort(int arr[], int n)
     {
         int i, j, temp;
         boolean swapped;
-        for (i = 0; i < n - 1; i++)    //只需要排n-1次。 
+        for (i = 0; i < n - 1; i++)    //只需要排n-1次。  Every loop we can make sure that last number will not change in the future.
         {
             swapped = false;
             for (j = 0; j < n - i - 1; j++) //n-i-1通过举例就能方便记住
