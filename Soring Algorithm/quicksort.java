@@ -33,7 +33,7 @@ public class Solution {
                 right --;
             }
             //if '==', also switch the position.
-            if (left <= right) {
+            if (left <= right) {            //remember <=
                 int temp = A[left];
                 A[left] = A[right];
                 A[right] = temp;
