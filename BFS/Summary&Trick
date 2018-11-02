@@ -49,7 +49,7 @@ Race Car: lc818 bfs with prune. A little tricky! good example
 
 
 Topological sorting: refer to this.topolocal sorting.java
-trick:  use res.size()==degree.size() to check whether there is a circle in the directed graph.
+trick:  use res.size()==degree.size() to check wether there is a satisfiable result in the input.
 idea is to find whether there is circle in the directed graph. The condition to be in queue is the node whose indegree is 0;
 ex:Course schedule: lc207
 Alien Dictionary: lc269  
