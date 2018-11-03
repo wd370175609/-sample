@@ -9,3 +9,14 @@ Returns the greatest key less than or equal to the given key, or null if there i
 relative question:
 My Calendar I: lc729
 My Calendar II :lc731
+
+TreeSet:
+API:
+higher(E e)
+Returns the least element in this set strictly greater than the given element, or null if there is no such element.
+lower(E e)
+Returns the greatest element in this set strictly less than the given element, or null if there is no such element.
+ceiling(E e)
+Returns the least element in this set greater than or equal to the given element, or null if there is no such element.
+floor(E e)
+Returns the greatest element in this set less than or equal to the given element, or null if there is no such element.
