@@ -4,6 +4,10 @@ ceilingKey(K key)
 Returns the least key greater than or equal to the given key, or null if there is no such key.
 floorKey(K key)
 Returns the greatest key less than or equal to the given key, or null if there is no such key.
+higherKey(K key)
+Returns the least key strictly greater than the given key, or null if there is no such key.
+lowerKey(K key)
+Returns the greatest key strictly less than the given key, or null if there is no such key.
 
 
 relative question:
