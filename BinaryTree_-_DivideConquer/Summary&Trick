@@ -60,6 +60,7 @@ Inorder Successor in BST: lc285。 using divide conquer. A little trick (need to
 
 Split BST: lc776 using divide&conquer. tricky.
 
+Count of Smaller Numbers After Self:lc 315 hard but very good quesiton making use of bst.
 
 Divide Conquer non tree question:
 Different Ways to Add Parentheses: lc241 经典！
