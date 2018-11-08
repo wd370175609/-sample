@@ -1,4 +1,4 @@
-BFS in Binary Tree:
+**asterisks**BFS in Binary Tree:
 classical example (level order):
 
  public List<List<Integer>> levelOrder(TreeNode root) {
