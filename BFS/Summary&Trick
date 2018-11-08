@@ -1,4 +1,4 @@
-**asterisks**BFS in Binary Tree:
+BFS in Binary Tree:
 classical example (level order):
 
  public List<List<Integer>> levelOrder(TreeNode root) {
@@ -27,7 +27,7 @@ the time and space complexity are both O(n)
 
 BFS 序列化的问题:
 
-Serialize and Deserialize BST: lc 449 (remember this question! use combination of DFS and BFS);
+Serialize and Deserialize BST: lc 449 (remember this question! use **combination of DFS and BFS**);
 Serialize and Deserialize binary tree: a little difficul, need to review. lc 297 (leetcode also use preorder for serialize and queue (divide conquer) for deserialize.
                                          my solution use bfs. (remember this one)
 ex:
