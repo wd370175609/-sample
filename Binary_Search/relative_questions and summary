@@ -2,7 +2,7 @@ trick:
 1.当不能用经典模板的时候，如何写if else？ 现在尝试举例，希望通过后续练习找寻规律。
 2.规律：
 因为start+(end-start)/2 最后是向左趋近，所以end可以等于mid也可以使end能够向左趋近，start=mid+1。参考Maximum Number in Mountain Sequence
-3.考虑什么情况数会被删掉。例如 start=mid+1, 那么在某个if的情况下，所有不满足这个if的值都会被删掉。如lc378的count的例子
+3.考虑什么情况数会被删掉。例如 start=mid+1, 那么在某个if的情况下，所有不满足这个if的值都会被删掉。如lc378的count的例子, lc528
 
 例如：lc540
 3.start + (end - start) / 2 won't overflow if start and end are large positive numbers. With signed operands, overflow is undefined:
