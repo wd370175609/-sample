@@ -23,6 +23,7 @@ Restore IP Addresses  :lc93
 search in graph: 
 Minesweeper: lc529
 trick: 
+
 1.在matrix中搜索四个方向时，设两个数组有时候可以简化代码
     int[] dx = {-1, 1, 0, 0};
     int[] dy = {0, 0, -1, 1};
@@ -45,6 +46,8 @@ trick:
         }
         visited[x][y]=false;      // be careful when to recover the visited
  2.画dfs的搜索树的时候如果有很多的节点是相等的，就可以考虑memorization
+3.visited 设置的位置，参考leetcode 47 & word search II
+
 
 Word Ladder: leetcode 126 127
 Predict the Winner: lc 486 （minimax)
