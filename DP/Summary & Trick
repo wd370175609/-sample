@@ -25,6 +25,8 @@ Number of Longest Increasing Subsequence: lc673
 Russian Doll Envelopes: lc354
 Maximum Length of Repeated Subarray: lc718 降低空间复杂度的经典题
 Regular Expression Matching: lc10 a lot of cases need to consider
+Super Egg Drop: lc887 good example!
+
 
 2 keys keyboard: lc650 try to find all privious value where i%j==0
 序列型动态规划： 这类题目特点
