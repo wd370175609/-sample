@@ -17,6 +17,7 @@ this.remove_space: good example for understand the 物理意义
 this.remove_adjacent_duplicates: 利用two pointer模拟stack。能够帮助理解物理意义。
 candy: leetcode 135
 Fruit Into Baskets: lc904 套模板用这个题。经典 用第二种好理解！
+Backspace String Compare: lc844 two pointer replace stack example.
 
 using stack to store the left pointer:
 ex:
