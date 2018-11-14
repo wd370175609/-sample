@@ -10,7 +10,9 @@ consider the difference between combination and permutation:
   combination 是组合问题经典类型
 4.DFS 不是排列就是组合
 5.考虑添加节点，和节点出栈两个时间点，屡清逻辑
-
+6.visited 位置，有两种做法，可以在进栈以后加，也可以在进栈之前加。
+在helper函数开头加visited，就是进栈以后加，但是在函数结尾可能要remove
+也可以在递归的helper()函数的上下方加visited add 和visited remove，我理解的意义是进栈前加visited
 
 
 
@@ -34,7 +36,7 @@ trick:
      }
       用visited[][]数组来去重时候，如果是单纯的DFS访问所有节点（每个节点只能访问一次），那么不需要将visited还原， 如果DFS的每个分支可能访问
       相同的节点（如 word searchII），那么在每个节点search完以后要将visited还原。如：
-      visited[x][y]=true;                // be careful when to set the visited
+      visited[x][y]=true;                // be careful when to set the visited  
         if(obj.search(s)){
             if(!res.contains(s))
                 res.add(s);
