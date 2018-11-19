@@ -32,6 +32,13 @@ Largest BST Subtree: lc 333
 
 4.check临界条件时判断需不需要识别leave，举例子
 
+5. traverse a complete binary tree
+parent(i): i/2 
+lchild(i): 2i
+rchild(i): 2i+1
+i start from 1.
+
+
 
 questions about level traverse:
 Maximum Width of Binary Tree: lc 622
