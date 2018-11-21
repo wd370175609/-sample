@@ -27,7 +27,7 @@ Maximum Length of Repeated Subarray: lc718 降低空间复杂度的经典题
 Regular Expression Matching: lc10 a lot of cases need to consider
 Super Egg Drop: lc887 good example!
 2 keys keyboard: lc650 try to find all privious value where i%j==0
-Strange Printer: lc664
+
 
 序列型动态规划： 这类题目特点
 • f[i] = max(f[i-1], f[i-2] + A[i]); 由 f[i-1],f[i-2] 来决定状态， 不再是找前面状态的最大或最小值。
@@ -76,9 +76,17 @@ Can I Win: lc 464 利用memorization
 
 区间型dp: 
 Stone game: https://www.lintcode.com/submission/14709621/
-Burst Balloons: lc 312 (注意for循环的顺序，是个套路）
+Burst Balloons: lc 312 (注意for循环的顺序，是个套路）  no-self-contained: subprolem 需要一些external的值，这题比remove boxes容易的地方在于
+                                                                      external的值可以利用input数组来获得，但是remove boxes得多设
+                                                                      变量来记录external值
 Palindromic Substrings: lc647
 Longest Palindromic Substring: lc5 (这道题只有设成区间型(i,j)，才能写出递推公式）
+Strange Printer: lc664
+Remove Boxes: lc546 no-self-contained: I shall call that the definition of the subproblem is not 
+                                       self-contained and its solution relies on information external to the subproblem 
+                                       itself.
+                                    
+
 
 匹配型dp: input is almost two string. 
 this. longest common subsequence
