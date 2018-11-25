@@ -9,9 +9,7 @@ int hashfunc(String key){
   return sum;
 }
 
-
-
-
+implement the hashmap in java: this.hashmap!!!!!!
 
 2 ways to remove collision:
 1.Closed Hashing:
