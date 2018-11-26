@@ -1,0 +1,18 @@
+Summary of some trick:
+1.Orientation of 3 ordered points
+Orientation of an ordered triplet of points in the plane can be
+counterclockwise
+clockwise
+colinear
+public static int orientation(Point p1, Point p2, Point p3) 
+    { 
+        int val = (p2.y - p1.y) * (p3.x - p2.x) - (p2.x - p1.x) * (p3.y - p2.y); 
+        if (val == 0) return 0;  // colinear 
+        // clock or counterclock wise 
+        return (val > 0)? 1: 2;  
+    } 
+    
+    
+    
+Erect the Fence: lc587   trick is make use of orientation!  algorithm refer to geeks for geeks: 
+https://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/
