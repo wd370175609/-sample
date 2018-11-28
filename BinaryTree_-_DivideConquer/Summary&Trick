@@ -48,6 +48,8 @@ Maximum Width of Binary Tree: lc 622
 
 preorder:
 Verify Preorder Sequence in Binary Search Tree:lc 255
+Serialize and Deserialize Binary Tree: lc 297
+
 
 relative question:
 Count Univalue Subtrees: lc 250
