@@ -16,7 +16,8 @@ Summary&Trick
   • Top down vs Bottom up
   
   
-Construct Binary Tree from Preorder and Postorder Traversal and Inorder Traversal: 
+Construct Binary Tree from Preorder and Postorder Traversal and Inorder Traversal: find the range from one array in another array. 
+Remeber use map to improve time complexity
 lc 105, lc 106, lc 889
   
 Trick:
