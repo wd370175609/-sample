@@ -58,6 +58,10 @@ Binary Tree Pruning: lc 814   将返回值考虑进去
 
 
 BST
+trick:
+1. it's easy to get the successor and predessor of a node in BST: like Leetcode 285
+2. make use of inorder traversion to solve problem!
+
 property: inorder traversal is non-decreasing. Can use it to check BST.
 
 For Preorder and Inorder traverse, recite the stack solution.
