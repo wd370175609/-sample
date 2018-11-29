@@ -45,6 +45,9 @@ Maximum Width of Binary Tree: lc 622
  Binary Tree Vertical Order Traversal: lc314 好题！能拓展思路
 
 
+postorder:
+Find Duplicate Subtrees: lc652
+
 
 preorder:
 Verify Preorder Sequence in Binary Search Tree:lc 255
