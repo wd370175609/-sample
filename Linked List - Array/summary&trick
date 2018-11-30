@@ -10,6 +10,7 @@ ListNode cur = head;
         }
         
 Reverse Linked List I:lc206
+Reverse Doubly linked list: https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
 Reverse Linked List II:lc92
         
 trick:
