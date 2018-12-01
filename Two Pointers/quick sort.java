@@ -5,7 +5,37 @@ public class Solution {
      * @param A: an integer array
      * @return: 
      */
-    public Random rand;
+    
+    
+    static Random rand = new Random();
+	public static int partition(int left, int right, int[] arr){
+		int pivot = arr[right];
+		int index = left;   
+		for(int i = left; i < right; i++){
+			if(arr[i] < pivot){
+				int temp = arr[i];
+				arr[i] = arr[index];
+				arr[index] = temp;
+				index++;    //index will point to the element which is larger and equal to pivot.
+			}
+		}
+        int temp = arr[index]; 
+        arr[index] = arr[right]; 
+        arr[right] = temp; 
+        return index;
+	}
+	public static void sort(int left, int right, int[] arr){
+		printArray(arr);
+		if(left >= right)
+			return;
+        // Recursively sort elements before 
+        // partition and after partition 
+		int pivot = partition(left, right, arr);
+		sort(left, pivot - 1, arr);
+		sort(pivot + 1, right, arr);
+	}
+    
+    /*public Random rand;
     public void sortIntegers2(int[] A) {
         rand = new Random();
         // write your code here
@@ -44,4 +74,5 @@ public class Solution {
         // A[left ... end]
         quickSort(A, left, end);
     }
+    */
 }
