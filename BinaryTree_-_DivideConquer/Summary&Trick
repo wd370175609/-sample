@@ -45,7 +45,7 @@ i start from 1.
 questions about level traverse:
 Maximum Width of Binary Tree: lc 622
  Binary Tree Vertical Order Traversal: lc314 好题！能拓展思路
-
+check complete tree: https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-complete-tree-or-not/
 
 postorder:
 Find Duplicate Subtrees: lc652
