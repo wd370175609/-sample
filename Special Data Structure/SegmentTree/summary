@@ -1,0 +1,16 @@
+Segment Tree is used in cases where there are multiple range queries on array and modifications of elements of the same array. 
+For example, finding the sum of all the elements in an array from indices  L to R , 
+or finding the minimum (famously known as Range Minumum Query problem) of all the elements in an array from indices L to R. 
+These problems can be easily solved with one of the most versatile data structures, Segment Tree.
+
+
+UPDATE()  O(logn)
+SearchRange()  O(logn)
+assume the number of calls to update and sumRange function is distributed evenly, it is very convenient to use segment tree.
+
+Build() cost O(n), n is usually the input array size. 
+
+
+Ex:
+
+Range Sum Query - Mutable: lc 307
