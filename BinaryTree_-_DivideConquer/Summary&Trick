@@ -40,7 +40,7 @@ lchild(i): 2i
 rchild(i): 2i+1
 i start from 1.
 
-6. good understand to make use of preorder and postorder.  Ex lc 834
+6. good understand to make use of preorder and postorder. bottom up and top down Ex lc 834
 
 questions about level traverse:
 Maximum Width of Binary Tree: lc 622
