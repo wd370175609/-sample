@@ -2,7 +2,7 @@
 Trick:
 1.用sample code1时可以考虑将输入数组的index做为unionfind里的node。 例如Longest Consecutive Sequence：lc128
 2.unionfind可以用O(n)来解决问题
-
+3. we can also add size[] array to store the size of each group!  Ex  Bricks Falling When Hit: lc803
 
 sample code1:
 
