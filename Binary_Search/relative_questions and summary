@@ -51,6 +51,8 @@ Kth Smallest Element in a Sorted Matrix: lc 378 it is tricky to find the target.
 
 others:
 Is Subsequence: lc 392
+Minimize Max Distance to Gas Station: lc 774
+
 
 summary:
 API: 
