@@ -52,6 +52,8 @@ trick:
 3.易错点。 经常没有在递归过程中新建一个list，而是修改了另外一层的list导致结果错误。
 4.一定要弄清楚dp 以及 helper函数的含义。
 5.helper函数的parameter与dp表示的变量是一样的！所以遇到题目先从helper如何表示下手！（重复节点如何表示也是提示）！！！！
+6.check是否有重复的方法：判断是否会调用很多次一模一样的helper() function
+
 
 Longest Increasing Continuous subsequence II: (结合了dfs和dp， 帮助理解dp如何在搜索的过程中去重，大大降低算法的时间复杂度。）此题只有记忆
 化搜索才能最优化。
