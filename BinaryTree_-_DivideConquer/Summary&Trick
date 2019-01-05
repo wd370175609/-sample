@@ -49,7 +49,7 @@ check complete tree: https://www.geeksforgeeks.org/check-if-a-given-binary-tree-
 
 postorder:
 Find Duplicate Subtrees: lc652
-
+Kth Smallest Element in a BST: lc230
 
 preorder:
 Verify Preorder Sequence in Binary Search Tree:lc 255
