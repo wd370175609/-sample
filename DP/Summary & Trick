@@ -76,6 +76,7 @@ Knight Probability in Chessboard: lc688 典型记忆化搜索
 this.coin in the line |, ||
 Can I Win: lc 464 利用memorization
 Guess Number Higher or Lower II: lc375
+Predict the Winner: lc486
 
 区间型dp: 
 Stone game: https://www.lintcode.com/submission/14709621/
@@ -123,6 +124,11 @@ backpack:  https://www.lintcode.com/problem/backpack/description
         }
         return dp[m];
     }
+good example for dp save space complexity: lc 486.
+trick for saving space complexity:
+1.判断填表的顺序，看是否会覆盖
+2.区间二维类型的dp填表记得外层loop是length，有固定模板，如lc 486
+
 
 表达式不好想的一些dp题目：
 Binary Trees With Factors:lc 823
