@@ -15,6 +15,8 @@ consider the difference between combination and permutation:
 也可以在递归的helper()函数的上下方加visited add 和visited remove，我理解的意义是进栈前加visited
 7.for time complextiy of memorization, 考虑cache的size，由于每个element在cache中只会被访问一次，
   所以time就是O(SIZE_OF_CACHE)*O(time of each recursion)!!!!   ex:lc 294
+8.memorization 经常value存的是返回的数量。如果是返回结果，似乎很少题目使用memorization
+
 
 
 partition:
