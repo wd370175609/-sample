@@ -124,7 +124,7 @@ backpack:  https://www.lintcode.com/problem/backpack/description
         }
         return dp[m];
     }
-good example for dp save space complexity: lc 486.
+good example for dp save space complexity: lc 486. lc 562
 trick for saving space complexity:
 1.判断填表的顺序，看是否会覆盖
 2.区间二维类型的dp填表记得外层loop是length，有固定模板，如lc 486
