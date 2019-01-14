@@ -77,3 +77,5 @@ Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity.
 6.Global and Local Inversions: lc775
 
 7.Diagonal Traverse: lc498
+
+Contiguous Array: lc525
