@@ -71,6 +71,14 @@ sample code2 (当node不是整数时，father 数组改为map）
             }
             return parent;
         }
+        //recursion 版本
+        public Point find(Point p){
+            if(father.get(p) == p)
+                return p;
+            father.put(p, find(father.get(p)));
+            return father.get(p);
+        }
+        
         
         public void union(String a, String b){
             String parent1=find(a);
