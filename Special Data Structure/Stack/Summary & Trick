@@ -14,6 +14,7 @@ Asteroid Collision：lc735
 Daily Temperatures： lc739
 Next Greater Element II： lc 503 想象一个进栈出栈的过程
 Ternary Expression Parser: lc439
+Decode String: lc394
 
 using stack to store a state when we traverse the input.
 ex:
