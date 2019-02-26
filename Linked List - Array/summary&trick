@@ -39,6 +39,8 @@ trick: 画图来考虑连接的问题会让思路变得清晰。
         
 array:
 
+
+
 Arrays.sort(): is quick sort
 time:O(nlogn)  space:O(1)
 merge sorted array:
@@ -77,6 +79,9 @@ Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity.
 6.Global and Local Inversions: lc775
 
 7.Diagonal Traverse: lc498
+
+8.Product of Array Except Self: lc238
+
 
 Max Sum of Rectangle No Larger Than K: lc363 for the findMax function. Good example for array.
 
