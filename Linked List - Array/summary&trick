@@ -63,6 +63,10 @@ subarray sum closes: linkcode 还未看
 Contiguous Array: lc525 经典presum
 Maximum Size Subarray Sum Equals k: lc 325  use hashmap to save time complexity. Very good question!
 
+2.in place solution for array, sometimes thing about reverse
+ex: lc189 Rotate Array
+
+
 比较trick的array的题目:
 1.Find All Duplicates in an Array: lc442 因为题目中出现2，考虑flip数节省空间复杂度。
 
