@@ -51,7 +51,8 @@ int findSubstring(string s){
         }
         return d;
   }
-
+trick: 将sliding window 理解成feasible和optimization两个部分，feasible表示满足某个条件下右指针停止，optimization表示移动左指针
+       Ex: Minimum Window Subsequence lc727
 3.特殊：
 Increasing Triplet Subsequence: lc334
 Longest Mountain in Array: lc845. 有点类似于sliding window, 一个值到位后，变化另一个值。
@@ -94,5 +95,5 @@ this.quick sort
 this.rainbow sort: combine of quick sort and merge sort!
 
 Trapping Rain Water: lc42
- 
+
         
