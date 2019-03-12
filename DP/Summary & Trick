@@ -100,6 +100,7 @@ Interleaving String: lc 97
 Minimum Swaps To Make Sequences Increasing: lc 801  设了两个dp变量，因为有四种可能性
 Minimum ASCII Delete Sum for Two Strings: lc712
 a trick for writing code is that if input is string, the length of dp array should be str.length+1;!!!!!!!!
+Minimum Window Subsequence: lc727 (实在没有思路，尝试画表格推)
 
 背包类dp：
 Coin Change: lc322 这题注意可以重复使用
