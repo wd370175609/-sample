@@ -6,7 +6,7 @@ https://www.lintcode.com/submission/14497657
 2.sliding window problem:
 Note: -how to move the left and right pointer is very important and applicable to all the sliding window problem.
       -it's common to record the frequency of character in the process of moving pointer.
-Minimum Window Substring lc 76   //this question is the pointer in the same direction. It's like a window.
+Minimum Window Substring lc 76   //very good example for understang sliding window sample
 Longest Substring Without Repeating Characters: lc 3
 Longest Substring with At Least K Repeating Characters: lc 395   //比较特殊，考前需记忆。
 Permutation in String: lc 567
