@@ -86,7 +86,7 @@ ex: lc189 Rotate Array
 
 8.Product of Array Except Self: lc238
 
-
+9.Range Addition: lc370
 Max Sum of Rectangle No Larger Than K: lc363 for the findMax function. Good example for array.
 
 Contiguous Array: lc525
