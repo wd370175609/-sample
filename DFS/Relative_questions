@@ -8,7 +8,7 @@ palindrome: leetcode 131
 permutation: leetcode 46 47
 
 consider the difference between combination and permutation: 
-1.if number in input are not unique, the remove duplication way is similar but a little different, which need to be remembered. 
+1.if number in input are not unique, the remove duplication way is similar but a little different, which need to be remembered. (see 40)
 2.combination will use startindex to control how the dfs go in the tree. 
   permutation may use if(list.contains) or visited[] array to control how the dfs go in the tree.
   
