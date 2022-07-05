@@ -24,7 +24,7 @@ public class Solution {
             }
         }
         
-        if(nums[start]==target){//first position:check start first. last position:check end first
+        if(nums[start]==target){//first position:check start first. last position:check end first, use example to verify!! check lc302
             return start;
         }
         else if(nums[end]==target){
