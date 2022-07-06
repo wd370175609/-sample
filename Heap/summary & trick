@@ -13,6 +13,8 @@ ugly number II: leetcode 264
 Task Scheduler: lc 621
 Trapping Rain Water II: lc 407
 
+378. Kth Smallest Element in a Sorted Matrix: use min queue
+
 
 
 Trick for priorityQueue:
